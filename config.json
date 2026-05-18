@@ -8,7 +8,12 @@
     "aws": {
         "enabled": true,
         "bucket_name": "crestwood-gig-data-lake",
-        "region": "us-east-2"
+        "region": "us-east-2",
+        "processed_prefix": "processed",
+        "results_prefix": "results",
+        "raw_prefix": "raw",
+        "dimensions_prefix": "dimensions",
+        "athena_results_prefix": "athena-query-results"
     },
     "market_logic": {
         "base_pay_unit": 2.50,

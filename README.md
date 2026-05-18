@@ -8,7 +8,7 @@ A Python-based market intelligence pipeline designed to analyze gig economy deli
 - **Custom Logic Engine**: Calculates potential earnings based on price levels, surge multipliers, and tip percentages.
 - **Distance Penalty**: Implements a "North Oldham" penalty ($0.65/mile) to account for long-distance delivery overhead.
 - **Config-Driven**: All market assumptions are centralized in `config.json` for easy adjustment.
-- **Cloud-Native Data Lake**: Converts analysis into optimized **Parquet** files and uploads them to **Amazon S3** for querying via **Amazon Athena**.
+- **Cloud-Native Data Lake**: Converts analysis into optimized **Parquet** files and uploads them to **Amazon S3** for querying via **Amazon Athena** and quick inspection under the `results/` prefix.
 - **Persistence**: Maintains a local time-series record in **SQLite** for instant historical lookups
 
 ## Architecture Overview
@@ -33,11 +33,11 @@ All files are contained within the project root. Below is the mapping of compone
 - **`run_scraper.bat`**: A Windows batch file used by Task Scheduler to automate the 30-minute polling cycle.
 
 ### Data & Configuration
-- **`config.json`**: The global configuration. Contains geolocation coordinates, AWS bucket names, and the economic variables (base pay, tip %, etc.).
+- **`config.json`**: The global configuration. Contains geolocation coordinates, AWS bucket/prefix names, and the economic variables (base pay, tip %, etc.).
 - **`restaurants.json`**: The "Known Store" database. Stores restaurant IDs, names, and their price levels ($-$$$$).
 - **`market_snapshots.json`**: (Temporary) Stores the raw network traffic captured during the most recent scrape.
 - **`market_history.db`**: (Ignored by Git) A local SQLite database storing every analysis run for local time-series reporting.
-- **`latest_analysis.parquet`**: (Temporary) The flattened representation of the latest run, prepared for S3 upload.
+- **`latest_analysis.parquet`**: (Temporary) The flattened representation of the latest run, prepared for S3 upload. The app publishes this to both `processed/run_date=.../` and `results/`, including `results/latest_analysis.parquet`.
 - **`restaurants_dim.parquet`**: The flattened dimension table synced to S3 for metadata joins.
 
 ### Troubleshooting & Metadata

@@ -181,34 +181,50 @@ def upload_to_s3(file_path, file_type="parquet", is_dimension=False, s3_key=None
             now = datetime.now()
             datestamp = now.strftime('%Y-%m-%d')
             timestamp = now.strftime('%Y%m%d_%H%M%S')
+            processed_prefix = config.get('processed_prefix', 'processed').strip('/')
+            results_prefix = config.get('results_prefix', 'results').strip('/')
+            dimensions_prefix = config.get('dimensions_prefix', 'dimensions').strip('/')
+            explicit_key = s3_key is not None
             if s3_key:
                 s3_key = s3_key
             elif is_dimension:
-                s3_key = f"dimensions/{os.path.basename(file_path)}"
+                s3_key = f"{dimensions_prefix}/{os.path.basename(file_path)}"
             else:
-                s3_key = f"processed/run_date={datestamp}/crestwood_{timestamp}.{file_type}"
+                s3_key = f"{processed_prefix}/run_date={datestamp}/crestwood_{timestamp}.{file_type}"
             s3.upload_file(file_path, config['bucket_name'], s3_key)
             print(f"[AWS] Uploaded {file_path} to s3://{config['bucket_name']}/{s3_key}")
+
+            if not is_dimension and not explicit_key and results_prefix:
+                results_key = f"{results_prefix}/run_date={datestamp}/crestwood_{timestamp}.{file_type}"
+                latest_key = f"{results_prefix}/latest_analysis.{file_type}"
+                if results_key != s3_key:
+                    s3.upload_file(file_path, config['bucket_name'], results_key)
+                    print(f"[AWS] Uploaded results copy to s3://{config['bucket_name']}/{results_key}")
+                s3.upload_file(file_path, config['bucket_name'], latest_key)
+                print(f"[AWS] Updated latest results at s3://{config['bucket_name']}/{latest_key}")
             
             # Only repair partitions for the Fact table (analysis), not Dimensions
-            if not is_dimension:
-                repair_athena_partitions(config['bucket_name'], config.get('region', 'us-east-2'))
+            if not is_dimension and not explicit_key:
+                repair_athena_partitions(config)
 
     except (NoCredentialsError, PartialCredentialsError):
         print("[!] S3 Upload Failed: No AWS credentials found. Run 'aws configure' in your terminal.")
     except Exception as e:
         print(f"[!] S3 Upload Failed: {e}")
 
-def repair_athena_partitions(bucket_name, region, database='default'):
+def repair_athena_partitions(config, database='default'):
     """Triggers Athena to discover new partitions in S3."""
     try:
         import boto3
+        bucket_name = config['bucket_name']
+        region = config.get('region', 'us-east-2')
+        athena_results_prefix = config.get('athena_results_prefix', 'athena-query-results').strip('/')
         athena = boto3.client('athena', region_name=region)
         query = "MSCK REPAIR TABLE crestwood_gig_analysis;"
         response = athena.start_query_execution(
             QueryString=query,
             QueryExecutionContext={'Database': database},
-            ResultConfiguration={'OutputLocation': f"s3://{bucket_name}/athena-query-results/"}
+            ResultConfiguration={'OutputLocation': f"s3://{bucket_name}/{athena_results_prefix}/"}
         )
         query_id = response['QueryExecutionId']
         print(f"[AWS] Triggered Athena partition repair (ID: {query_id})")
@@ -360,7 +376,9 @@ async def run_analysis(live_mode=False):
             with open('market_snapshots.json', 'w') as f:
                 json.dump(captured_data, f, indent=4)
             print(f"Captured {len(captured_data)} network responses.")
-            raw_key = f"raw/run_date={datetime.now().strftime('%Y-%m-%d')}/market_snapshots_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+            with open('config.json', 'r') as f:
+                raw_prefix = json.load(f).get('aws', {}).get('raw_prefix', 'raw').strip('/')
+            raw_key = f"{raw_prefix}/run_date={datetime.now().strftime('%Y-%m-%d')}/market_snapshots_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
             upload_to_s3('market_snapshots.json', file_type="json", s3_key=raw_key)
         except IOError as e:
             print(f"Error saving snapshots: {e}")
