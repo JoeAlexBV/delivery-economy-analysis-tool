@@ -1,0 +1,27 @@
+{
+    "scraper": {
+        "base_url": "https://www.ubereats.com/city/crestwood-ky",
+        "coords": {"latitude": 38.3306, "longitude": -85.4852},
+        "search_depth_scrolls": 15,
+        "headless": true
+    },
+    "aws": {
+        "enabled": true,
+        "bucket_name": "crestwood-gig-data-lake",
+        "region": "us-east-2"
+    },
+    "market_logic": {
+        "base_pay_unit": 2.50,
+        "avg_check_per_level": {
+            "1": 15, "2": 35, "3": 75, "4": 120
+        },
+        "default_avg_check": 25,
+        "tip_pct": 0.18,
+        "orders_per_hour": 2.2,
+        "distance_penalty_per_mile": 0.65,
+        "thresholds": {
+            "golden_window": 30,
+            "dead_zone": 15
+        }
+    }
+}

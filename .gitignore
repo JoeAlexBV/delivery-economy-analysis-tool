@@ -1,0 +1,24 @@
+# Python Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+env/
+.env
+
+# IDEs and OS
+.vscode/
+.DS_Store
+
+# Project specific: Ignore the live data snapshots
+market_snapshots.json
+
+# Local Databases and Large Data Files
+market_history.db
+*.parquet
+
+# Debug and Visuals
+debug_market_view.png
