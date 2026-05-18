@@ -67,7 +67,6 @@ All files are contained within the project root. Below is the mapping of compone
    2.  **Option A (Service Key)**: Run `aws configure` and provide the credentials for your restricted IAM User. (Ensure the policy includes `s3:ListAllMyBuckets` if using the VS Code AWS Toolkit).
    3.  **Option B (Modern/SSO)**: Use `aws configure sso` to link your local environment to IAM Identity Center. `boto3` will automatically detect the active SSO session.
    
-   *Security Note: Never commit your `.aws/` directory or hardcode keys in any configuration files.*
 
 4. **S3 Bucket**:
    Ensure the bucket name in `config.json` matches your created bucket in S3.

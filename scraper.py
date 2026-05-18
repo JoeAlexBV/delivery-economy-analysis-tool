@@ -107,7 +107,7 @@ class CrestwoodScraper:
                             'a[aria-label*="Next" i] button',
                             'button:has-text("Next")',
                             'a:has(svg title:text-is("Next")) button',
-                            'button:has(svg title:text-is("Next"))', # Matches the <title>Next</title> in your HTML
+                            'button:has(svg title:text-is("Next"))',
                             'nav[aria-label*="pagination"] button:has(svg)',
                             # The specific CSS path you provided as a final fallback
                             '#main-content > div:nth-child(5) > div > div > div._el._hn._iu._hp._hq._hr._iv > div > div > div._al._j7._j8._dq._j9._ja > a:nth-child(7) > button'

@@ -1,7 +1,9 @@
 import asyncio
+import json
 from playwright.async_api import async_playwright
 
 async def get_delivery_data():
+    captured_data = []
     async with async_playwright() as p:
         # 1. Launch Browser (Headless=False lets you see it work)
         browser = await p.chromium.launch(headless=True)
@@ -20,7 +22,7 @@ async def get_delivery_data():
                 try:
                     data = await response.json()
                     print(f"Captured Data from {response.url[:50]}...")
-                    # Logic: Save to your gig_earnings.json here
+                    captured_data.append({"url": response.url, "data": data})
                 except:
                     pass
 
@@ -30,10 +32,15 @@ async def get_delivery_data():
         print("Navigating to Uber Eats in Crestwood...")
         await page.goto("https://www.ubereats.com/city/crestwood-ky")
         
-        # Wait for the restaurant list to load (uses your 'Auto-wait' logic)
+        # Wait for the restaurant list to load
         await page.wait_for_selector('text=Crestwood Bistro', timeout=10000)
         
         await browser.close()
+
+    # Persist the intercepted data for the analysis engine to pick up
+    with open('market_snapshots.json', 'w') as f:
+        json.dump(captured_data, f, indent=4)
+    print(f"Successfully saved {len(captured_data)} network snapshots to market_snapshots.json")
 
 if __name__ == "__main__":
     asyncio.run(get_delivery_data())
