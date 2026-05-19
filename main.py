@@ -11,6 +11,7 @@ import re
 from scraper import CrestwoodScraper
 from analyzer import MarketAnalyzer
 
+
 MARKET_CENTER = {"latitude": 38.3306, "longitude": -85.4852}
 
 NON_STORE_NAME_PATTERNS = [
@@ -92,11 +93,44 @@ def promotion_description(promotion):
         return None
     return promotion.get("description") or promotion.get("title") or promotion.get("displayText")
 
+def auto_parse_missing_store_name(store_id: str) -> str:
+    """
+    Parses a raw, unseeded spillover store_id from neighboring corridors
+    into a clean, structured name with geographic context for Power BI.
+    """
+    parts = store_id.split('__')
+    base_name = parts[0]
+    clean_name = base_name.replace('_', ' ').title()
+    
+    # Standardize common acronyms/short names if hit
+    clean_name = clean_name.replace('Oishii', 'Oishii Restaurant')
+    
+    location_desc = "Regional"
+    if len(parts) > 1:
+        match = re.search(r'(?:\d+_)?([a-z0-9_]+?)(?:_rd|_st|_dr|_ct|_blvd|_001|$)', parts[1])
+        if match:
+            slug = match.group(1)
+            if any(k in store_id for k in ["summit_plaza", "von_allmen", "brownsboro"]):
+                location_desc = "Paddock Shops"
+            elif "westport" in store_id:
+                location_desc = "Westport Rd"
+            elif "middletown" in store_id:
+                location_desc = "Middletown"
+            else:
+                location_desc = slug.replace('_', ' ').title()
+                
+    return f"{clean_name} ({location_desc})"
+
 def extract_structured_store(store_id, store):
     if not isinstance(store, dict):
         return None
 
     name = store.get("title") or store.get("name") or store.get("storeName")
+    
+    # Fallback self-healing: if the API name is missing/blank, deduce it from the store_id
+    if not name and store_id and "__" in store_id:
+        name = auto_parse_missing_store_name(store_id)
+
     if not is_valid_store_name(name):
         return None
 
@@ -176,7 +210,6 @@ def upload_to_s3(file_path, file_type="parquet", is_dimension=False, s3_key=None
             config = json.load(f).get('aws', {})
         
         if config.get('enabled', False):
-            # boto3 automatically looks for credentials in ~/.aws/credentials or environment variables
             s3 = boto3.client('s3', region_name=config.get('region', 'us-east-2'))
             now = datetime.now()
             datestamp = now.strftime('%Y-%m-%d')
@@ -305,7 +338,7 @@ def discover_real_stats(snapshots_path='market_snapshots.json'):
         return {}
 
 def update_restaurant_database(found_stores, db_path='restaurants.json'):
-    """Integrates newly discovered names into the static JSON database."""
+    """Integrates newly discovered names and auto-heals missing dim data for spillover stores."""
     if not found_stores:
         return set()
 
@@ -317,7 +350,7 @@ def update_restaurant_database(found_stores, db_path='restaurants.json'):
         db = {}
 
     try:
-        # Remove entries that were accidentally learned from ETA/status labels in older runs.
+        # Clean older bad records
         db = {
             store_id: info
             for store_id, info in db.items()
@@ -329,22 +362,34 @@ def update_restaurant_database(found_stores, db_path='restaurants.json'):
         
         for discovered_id, metadata in found_stores.items():
             clean_name = metadata.get('name', '').strip()
+            
+            # Self-healing check: If the store name is missing or generic, parse the ID
+            if (not clean_name or clean_name.lower() == "unknown store") and "__" in discovered_id:
+                clean_name = auto_parse_missing_store_name(discovered_id)
+                metadata['name'] = clean_name
+
             if not is_valid_store_name(clean_name):
                 continue
 
-            # Find existing ID if name matches to update metadata
+            # Check if this precise ID or matching name exists
             store_id = next(
-                (sid for sid, info in db.items() if info.get('name', '').lower() == clean_name.lower()),
+                (sid for sid, info in db.items() if sid == discovered_id or info.get('name', '').lower() == clean_name.lower()),
                 None
             )
             
             if not store_id:
-                store_id = metadata.get('store_id') or discovered_id or f"{slugify(clean_name)}_001"
-                db[store_id] = {"name": clean_name}
+                store_id = discovered_id or f"{slugify(clean_name)}_001"
+                # Initialize structured placeholder for the new edge/spillover store
+                db[store_id] = {
+                    "name": clean_name,
+                    "price_level": metadata.get("price_level", 2),
+                    "rating": metadata.get("rating", 4.2)
+                }
                 new_entries_count += 1
+                
             active_store_ids.add(store_id)
 
-            # Refresh metadata for both new and existing stores
+            # Keep metadata fields in sync
             for key, value in metadata.items():
                 if key == 'store_id':
                     continue
@@ -355,7 +400,7 @@ def update_restaurant_database(found_stores, db_path='restaurants.json'):
         if new_entries_count > 0 or updated_entries_count > 0:
             with open(db_path, 'w') as f:
                 json.dump(dict(sorted(db.items(), key=lambda item: item[1].get('name', ''))), f, indent=4)
-            print(f"[DATABASE] Stats: {new_entries_count} new, {updated_entries_count} metadata updates.")
+            print(f"[DATABASE] Stats: {new_entries_count} new spillover tracks, {updated_entries_count} metadata refinements applied.")
         return active_store_ids
             
     except Exception as e:
@@ -392,7 +437,6 @@ async def run_analysis(live_mode=False):
         active_store_ids = update_restaurant_database(found_stores)
 
     # 3. Analyze specific Crestwood segments
-    # We now iterate through the actual database to log trends
     try:
         with open('restaurants.json', 'r') as f:
             stores = {
@@ -431,7 +475,7 @@ async def run_analysis(live_mode=False):
             "categories": ", ".join(info.get("categories", [])) if isinstance(info.get("categories"), list) else info.get("categories"),
         })
         
-        if store_id == 'crestwood_bistro_001': # Keep your specific printout
+        if store_id == 'crestwood_bistro_001': 
             print(f"\nTarget: {info['name']} (Standard Delivery)")
             print(f"Est. Potential: ${potential}/hr")
             print(f"Status: [{status}]")
@@ -445,7 +489,6 @@ async def run_analysis(live_mode=False):
     upload_to_s3(parquet_file, file_type="parquet")
 
     # 5. Sync Dimension Table to S3
-    # Flatten the dictionary into a tabular format: store_id becomes a column
     dim_df = pd.DataFrame.from_dict(stores, orient='index').reset_index()
     dim_df.rename(columns={'index': 'store_id'}, inplace=True)
     dim_parquet = 'restaurants_dim.parquet'
@@ -456,7 +499,7 @@ async def run_analysis(live_mode=False):
         if os.path.exists(dim_parquet):
             os.remove(dim_parquet)
 
-    # 6. Quick Check: Print Top 10 Leaderboard for the Driver
+    # 6. Quick Check: Print Top 10 Leaderboard
     print("\n" + "="*50)
     print(f"   CRESTWOOD LIVE LEADERBOARD ({datetime.now().strftime('%I:%M %p')})")
     print("="*50)
@@ -479,7 +522,6 @@ if __name__ == "__main__":
         
         async def scheduler_loop():
             scheduler = AsyncIOScheduler()
-            # Schedule the analysis to run once immediately, then every X minutes
             scheduler.add_job(
                 run_analysis, 
                 'interval', 
@@ -490,7 +532,7 @@ if __name__ == "__main__":
             scheduler.start()
             print(f"[SCHEDULER] Engine active. Interval: {args.interval}m. Mode: {'Live' if args.live else 'Static'}")
             print("Press Ctrl+C to terminate the process.")
-            await asyncio.Event().wait() # Keeps the event loop alive indefinitely
+            await asyncio.Event().wait()
 
         try:
             asyncio.run(scheduler_loop())
