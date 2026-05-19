@@ -2,7 +2,10 @@
     "scraper": {
         "base_url": "https://www.ubereats.com/city/crestwood-ky",
         "coords": {"latitude": 38.3306, "longitude": -85.4852},
+        "search_radius_miles": 15,
+        "single_origin_coverage_miles": 10,
         "search_depth_scrolls": 15,
+        "spillover_search_depth_scrolls": 4,
         "headless": true
     },
     "aws": {

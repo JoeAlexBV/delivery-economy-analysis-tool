@@ -5,6 +5,7 @@ A Python-based market intelligence pipeline designed to analyze gig economy deli
 ## Features
 
 - **Network Interception**: Captures GraphQL and JSON responses directly from delivery platforms.
+- **Expanded Radius Crawling**: Uses the configured center point plus nearby geolocation passes to approximate wider Uber Eats market coverage, currently 15 miles.
 - **Custom Logic Engine**: Calculates potential earnings based on price levels, surge multipliers, and tip percentages.
 - **Distance Penalty**: Implements a "North Oldham" penalty ($0.65/mile) to account for long-distance delivery overhead.
 - **Config-Driven**: All market assumptions are centralized in `config.json` for easy adjustment.

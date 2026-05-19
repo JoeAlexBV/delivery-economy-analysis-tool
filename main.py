@@ -12,7 +12,22 @@ from scraper import CrestwoodScraper
 from analyzer import MarketAnalyzer
 
 
-MARKET_CENTER = {"latitude": 38.3306, "longitude": -85.4852}
+def load_scraper_settings(config_path='config.json'):
+    try:
+        with open(config_path, 'r') as f:
+            scraper_config = json.load(f).get('scraper', {})
+    except (FileNotFoundError, json.JSONDecodeError):
+        scraper_config = {}
+
+    return {
+        "coords": scraper_config.get("coords", {"latitude": 38.3306, "longitude": -85.4852}),
+        "search_radius_miles": scraper_config.get("search_radius_miles", 10),
+    }
+
+
+SCRAPER_SETTINGS = load_scraper_settings()
+MARKET_CENTER = SCRAPER_SETTINGS["coords"]
+MARKET_RADIUS_MILES = SCRAPER_SETTINGS["search_radius_miles"]
 
 NON_STORE_NAME_PATTERNS = [
     r"^\d+\s*min$",
@@ -144,6 +159,8 @@ def extract_structured_store(store_id, store):
     distance_miles = None
     if isinstance(lat, (int, float)) and isinstance(lon, (int, float)) and lat and lon:
         distance_miles = round(haversine_miles(MARKET_CENTER["latitude"], MARKET_CENTER["longitude"], lat, lon), 2)
+        if distance_miles > MARKET_RADIUS_MILES:
+            return None
 
     price_bucket = meta.get("priceBucket") or store.get("priceBucket") or store.get("priceRange")
     eta_text = eta_range.get("text") or store.get("etaText") or store.get("closedMessage")
@@ -168,6 +185,7 @@ def extract_structured_store(store_id, store):
         "latitude": lat if lat else None,
         "longitude": lon if lon else None,
         "distance_miles": distance_miles,
+        "search_radius_miles": MARKET_RADIUS_MILES,
         "source": "getPaginatedStoresV1",
         "last_seen": datetime.now().isoformat(),
     }
@@ -315,6 +333,7 @@ def discover_real_stats(snapshots_path='market_snapshots.json'):
                     "store_id": f"{slugify(name)}_001",
                     "name": name,
                     "price_level": 2,
+                    "search_radius_miles": MARKET_RADIUS_MILES,
                     "source": "html_backup",
                     "last_seen": datetime.now().isoformat(),
                 }
@@ -471,6 +490,8 @@ async def run_analysis(live_mode=False):
             "eta_minutes": info.get("eta_minutes"),
             "is_open": info.get("is_open"),
             "promotion_active": info.get("promotion_active"),
+            "distance_miles": info.get("distance_miles"),
+            "search_radius_miles": info.get("search_radius_miles", MARKET_RADIUS_MILES),
             "address": info.get("address"),
             "categories": ", ".join(info.get("categories", [])) if isinstance(info.get("categories"), list) else info.get("categories"),
         })
