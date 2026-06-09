@@ -1,0 +1,105 @@
+CREATE EXTERNAL TABLE IF NOT EXISTS analytics_restaurant_hourly (
+    store_id string,
+    store_name string,
+    market_zone string,
+    day_of_week string,
+    day_of_week_num int,
+    day_type string,
+    hour_of_day int,
+    shift_block string,
+    observations bigint,
+    sample_runs bigint,
+    distinct_run_dates bigint,
+    restaurants_observed bigint,
+    avg_hourly_pay double,
+    median_hourly_pay double,
+    std_hourly_pay double,
+    min_hourly_pay double,
+    max_hourly_pay double,
+    promo_rate double,
+    open_rate double,
+    avg_eta_minutes double,
+    avg_distance_miles double,
+    p25_hourly_pay double,
+    p75_hourly_pay double,
+    sample_confidence double,
+    consistency_score double,
+    predictability_score double,
+    predictable_hourly_pay double,
+    recommendation_score double,
+    reliability_label string,
+    rank_for_day_hour int,
+    platform_code string
+)
+STORED AS PARQUET
+LOCATION 's3://crestwood-gig-data-lake/analytics/restaurant_hourly/'
+TBLPROPERTIES ('classification'='parquet');
+
+CREATE EXTERNAL TABLE IF NOT EXISTS analytics_zone_hourly (
+    market_zone string,
+    day_of_week string,
+    day_of_week_num int,
+    day_type string,
+    hour_of_day int,
+    shift_block string,
+    observations bigint,
+    sample_runs bigint,
+    distinct_run_dates bigint,
+    restaurants_observed bigint,
+    avg_hourly_pay double,
+    median_hourly_pay double,
+    std_hourly_pay double,
+    min_hourly_pay double,
+    max_hourly_pay double,
+    promo_rate double,
+    open_rate double,
+    avg_eta_minutes double,
+    avg_distance_miles double,
+    p25_hourly_pay double,
+    p75_hourly_pay double,
+    sample_confidence double,
+    consistency_score double,
+    predictability_score double,
+    predictable_hourly_pay double,
+    recommendation_score double,
+    reliability_label string,
+    rank_for_day_hour int,
+    platform_code string
+)
+STORED AS PARQUET
+LOCATION 's3://crestwood-gig-data-lake/analytics/zone_hourly/'
+TBLPROPERTIES ('classification'='parquet');
+
+CREATE EXTERNAL TABLE IF NOT EXISTS analytics_zone_shift (
+    market_zone string,
+    day_of_week string,
+    day_of_week_num int,
+    day_type string,
+    shift_block string,
+    observations bigint,
+    sample_runs bigint,
+    distinct_run_dates bigint,
+    restaurants_observed bigint,
+    avg_hourly_pay double,
+    median_hourly_pay double,
+    std_hourly_pay double,
+    min_hourly_pay double,
+    max_hourly_pay double,
+    promo_rate double,
+    open_rate double,
+    avg_eta_minutes double,
+    avg_distance_miles double,
+    p25_hourly_pay double,
+    p75_hourly_pay double,
+    sample_confidence double,
+    consistency_score double,
+    predictability_score double,
+    predictable_hourly_pay double,
+    recommendation_score double,
+    reliability_label string,
+    rank_for_day_shift int,
+    platform_code string
+)
+STORED AS PARQUET
+LOCATION 's3://crestwood-gig-data-lake/analytics/zone_shift/'
+TBLPROPERTIES ('classification'='parquet');

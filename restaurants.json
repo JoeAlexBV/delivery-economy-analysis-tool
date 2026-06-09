@@ -4,9 +4,9 @@
         "price_level": 2,
         "slug": "aldi-10620-westport-rd",
         "price_bucket": "$$",
-        "eta_text": "4:27PM",
-        "eta_minutes": 6.0,
-        "availability_text": "4:27PM",
+        "eta_text": "2:47PM",
+        "eta_minutes": 2.0,
+        "availability_text": "2:47PM",
         "promotion_active": true,
         "promotion_description": "Save on Select Items",
         "is_open": true,
@@ -19,19 +19,20 @@
         ],
         "address": "10620 Westport Rd., Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "ace_hardware__6536_w_hwy_22_001": {
         "name": "Ace Hardware (6536 W Hwy 22)",
         "price_level": 2,
         "slug": "ace-hardware-6536-w-hwy-22",
         "price_bucket": "",
-        "eta_text": "17 min",
-        "eta_minutes": 17.0,
-        "availability_text": "17 min",
+        "eta_text": "18 min",
+        "eta_minutes": 18.0,
+        "availability_text": "18 min",
         "promotion_active": true,
-        "promotion_description": "Get $10 off of your order of $35 or more (before taxes and fees). Available for a limited time only.",
+        "promotion_description": "Save on Select Items",
         "is_open": true,
         "categories": [
             "Retail",
@@ -42,8 +43,9 @@
         ],
         "address": "6536 W Hwy 22, Crestwood, KY 400149305",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Crestwood Core"
     },
     "apna_cafe_001": {
         "name": "Apna Cafe",
@@ -51,7 +53,7 @@
         "slug": "apna-cafe",
         "price_bucket": "$$",
         "eta_text": "Available at 5:30 PM",
-        "eta_minutes": 14.0,
+        "eta_minutes": 2.0,
         "availability_text": "Available at 5:30 PM",
         "promotion_active": false,
         "is_open": true,
@@ -62,17 +64,18 @@
         ],
         "address": "11322 Maple Brook Drive, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.295061",
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover"
     },
     "arby_s__12424_lagrange_rd_001": {
         "name": "Arby's (12424 Lagrange Rd)",
         "price_level": 1,
         "slug": "arbys-12424-lagrange-rd",
         "price_bucket": "$",
-        "eta_text": "16 min",
-        "eta_minutes": 16.0,
-        "availability_text": "16 min",
+        "eta_text": "15 min",
+        "eta_minutes": 15.0,
+        "availability_text": "15 min",
         "promotion_active": true,
         "is_open": true,
         "categories": [
@@ -87,18 +90,19 @@
         ],
         "address": "12424 Lagrange Rd, Louisville, KY 40245",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "promotion_description": "Take 20% off your subtotal with a maximum discount of $6. Discount does not apply to taxes and fees. Cannot be combined with other promotions.",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "promotion_description": "Buy 1, Get 1 Free",
+        "search_radius_miles": 15,
+        "market_zone": "La Grange / Buckner"
     },
     "arby_s__4900_norton_healthcare_blvd_001": {
         "name": "Arby's (4900 Norton Healthcare Blvd.)",
         "price_level": 1,
         "slug": "arbys-4900-norton-healthcare-blvd",
         "price_bucket": "$",
-        "eta_text": "18 min",
-        "eta_minutes": 18.0,
-        "availability_text": "18 min",
+        "eta_text": "19 min",
+        "eta_minutes": 19.0,
+        "availability_text": "19 min",
         "promotion_active": true,
         "is_open": true,
         "categories": [
@@ -113,18 +117,19 @@
         ],
         "address": "4900 Norton Healthcare Blvd., Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "promotion_description": "Take 20% off your subtotal with a maximum discount of $6. Discount does not apply to taxes and fees. Cannot be combined with other promotions.",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.291761",
+        "promotion_description": "Buy 1, Get 1 Free",
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover"
     },
     "asahi_ii_001": {
         "name": "Asahi II",
         "price_level": 2,
         "slug": "asahi-ii",
         "price_bucket": "$$",
-        "eta_text": "Available in 54 min",
-        "eta_minutes": 54.0,
-        "availability_text": "Available in 54 min",
+        "eta_text": "Available at 4:30 PM",
+        "eta_minutes": 15.0,
+        "availability_text": "Available at 4:30 PM",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -134,8 +139,9 @@
         ],
         "address": "6001 Pleasant Colony Court, Crestwood, KY 40014",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.295061",
+        "search_radius_miles": 15,
+        "market_zone": "Crestwood Core"
     },
     "backside_grill_at_oldham_gardens_001": {
         "name": "Backside Grill at Oldham Gardens",
@@ -143,7 +149,7 @@
         "slug": "backside-grill-at-oldham-gardens",
         "price_bucket": "$$",
         "eta_text": "Available Wednesday 4:30 PM",
-        "eta_minutes": 4.0,
+        "eta_minutes": 17.0,
         "availability_text": "Available Wednesday 4:30 PM",
         "promotion_active": false,
         "is_open": true,
@@ -154,17 +160,18 @@
         ],
         "address": "6302 Old Lagrange Road, Crestwood, KY 40014",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.295061",
+        "search_radius_miles": 15,
+        "market_zone": "Crestwood Core"
     },
     "barry_bagels__norton_commons_ky_001": {
         "name": "Barry Bagels (Norton Commons KY)",
         "price_level": 2,
         "slug": "barry-bagels-norton-commons-ky",
         "price_bucket": "",
-        "eta_text": "Available Wednesday 7:30 AM",
-        "eta_minutes": 20.0,
-        "availability_text": "Available Wednesday 7:30 AM",
+        "eta_text": "Currently unavailable",
+        "eta_minutes": 21.0,
+        "availability_text": "Currently unavailable",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -174,18 +181,19 @@
         ],
         "address": "10616 Meeting Street, Prospect, KY 40059",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.294461",
+        "search_radius_miles": 15,
+        "market_zone": "Prospect / Norton Commons"
     },
     "baskin_robbins__12418_la_grange_rd__suite__155_001": {
         "name": "Baskin-Robbins (12418 La Grange Rd, Suite #155)",
         "price_level": 1,
         "slug": "baskin-robbins-12418-la-grange-rd-suite-#155",
         "price_bucket": "$",
-        "eta_text": "19 min",
-        "eta_minutes": 19.0,
-        "availability_text": "19 min",
-        "promotion_active": false,
+        "eta_text": "17 min",
+        "eta_minutes": 17.0,
+        "availability_text": "17 min",
+        "promotion_active": true,
         "is_open": true,
         "categories": [
             "Desserts",
@@ -194,18 +202,20 @@
         ],
         "address": "12418 La Grange Rd , Suite #155, Louisville, KY 40245",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "La Grange / Buckner",
+        "promotion_description": "Save on Select Items"
     },
     "big_bad_breakfast__norton_commons_001": {
         "name": "Big Bad Breakfast (Norton Commons)",
         "price_level": 2,
-        "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
+        "source": "html_backup",
+        "last_seen": "2026-06-09T14:08:34.302929",
         "slug": "big-bad-breakfast-norton-commons",
         "price_bucket": "",
-        "eta_text": "Available Wednesday 7:00 AM",
-        "availability_text": "Available Wednesday 7:00 AM",
+        "eta_text": "Available Friday 7:00 AM",
+        "availability_text": "Available Friday 7:00 AM",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -215,17 +225,19 @@
             "Coffee and Tea"
         ],
         "address": "5050 Norton Healthcare Blvd, Louisville, KY 40241",
-        "search_radius_miles": 15
+        "search_radius_miles": 15,
+        "market_zone": "Prospect / Norton Commons",
+        "eta_minutes": 27.0
     },
     "blaze_pizza__4118_summit_plaza_drive_001": {
         "name": "Blaze Pizza (4118 Summit Plaza Drive)",
         "price_level": 1,
         "slug": "blaze-pizza-4118-summit-plaza-drive",
         "price_bucket": "$",
-        "eta_text": "25 min",
-        "eta_minutes": 25.0,
-        "availability_text": "25 min",
-        "promotion_active": false,
+        "eta_text": "26 min",
+        "eta_minutes": 26.0,
+        "availability_text": "26 min",
+        "promotion_active": true,
         "is_open": true,
         "categories": [
             "Pizza",
@@ -235,8 +247,10 @@
         ],
         "address": "4118 Summit Plaza Drive, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.302929",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock",
+        "promotion_description": "Free Item (Spend $16)"
     },
     "bloom_haus_by_kroger_001": {
         "name": "Bloom Haus by Kroger",
@@ -244,7 +258,7 @@
         "slug": "bloom-haus-by-kroger",
         "price_bucket": "",
         "eta_text": "Currently unavailable",
-        "eta_minutes": 27.0,
+        "eta_minutes": 31.0,
         "availability_text": "Currently unavailable",
         "promotion_active": true,
         "promotion_description": "Get $5 off of your order of $40 or more (before taxes and fees). Available for a limited time only.",
@@ -254,17 +268,18 @@
         ],
         "address": "10010 Ballardsville Rd, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.294461",
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover"
     },
     "bob_evans_379__10761_fischer_park_drive_001": {
         "name": "Bob Evans 379 (10761 Fischer Park Drive)",
         "price_level": 2,
         "slug": "bob-evans-379-10761-fischer-park-drive",
         "price_bucket": "$$",
-        "eta_text": "32 min",
-        "eta_minutes": 32.0,
-        "availability_text": "32 min",
+        "eta_text": "31 min",
+        "eta_minutes": 31.0,
+        "availability_text": "31 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -277,8 +292,9 @@
         ],
         "address": "10761 Fischer Park Drive, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.291761",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "bombay_sandwich_co_001": {
         "name": "Bombay Sandwich Co",
@@ -304,8 +320,9 @@
         ],
         "address": "3741 Pamela Rae Drive, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.295061",
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover"
     },
     "bowl_o_india_001": {
         "name": "Bowl-O-India",
@@ -326,18 +343,19 @@
         ],
         "address": "3741 Pamela Rae Drive, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.295575",
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover"
     },
     "bubbakoo_s_burritos___louisville_001": {
         "name": "Bubbakoo's Burritos - Louisville",
         "price_level": 2,
         "slug": "bubbakoos-burritos-louisville",
         "price_bucket": "",
-        "eta_text": "22 min",
-        "eta_minutes": 22.0,
-        "availability_text": "22 min",
-        "promotion_active": true,
+        "eta_text": "20 min",
+        "eta_minutes": 20.0,
+        "availability_text": "20 min",
+        "promotion_active": false,
         "is_open": true,
         "categories": [
             "Mexican",
@@ -346,18 +364,19 @@
         ],
         "address": "12919 Factory Lane, Louisville, KY 40245",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
+        "last_seen": "2026-06-09T14:08:34.302929",
         "promotion_description": "Free Item (Spend $24)",
-        "search_radius_miles": 15
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover"
     },
     "buffalo_wild_wings__10206_westport_rd_001": {
         "name": "Buffalo Wild Wings (10206 Westport Rd)",
         "price_level": 2,
         "slug": "buffalo-wild-wings-10206-westport-rd",
         "price_bucket": "$$",
-        "eta_text": "28 min",
-        "eta_minutes": 28.0,
-        "availability_text": "28 min",
+        "eta_text": "32 min",
+        "eta_minutes": 32.0,
+        "availability_text": "32 min",
         "promotion_active": true,
         "is_open": true,
         "categories": [
@@ -369,21 +388,22 @@
         ],
         "address": "10206 Westport Rd, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "promotion_description": "Buy 1, Get 1 Free",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.302929",
+        "promotion_description": "Take 20% off your subtotal with a maximum discount of $7. Discount does not apply to taxes and fees. Cannot be combined with other promotions.",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "burger_king__3701_diann_marie_road_001": {
         "name": "Burger King (3701 Diann Marie Road)",
         "price_level": 1,
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
+        "last_seen": "2026-06-09T14:08:34.302929",
         "slug": "burger-king-3701-diann-marie-road",
         "price_bucket": "$",
         "eta_text": "19 min",
         "eta_minutes": 19.0,
         "availability_text": "19 min",
-        "promotion_active": false,
+        "promotion_active": true,
         "is_open": true,
         "categories": [
             "American",
@@ -391,17 +411,19 @@
             "Fast Food"
         ],
         "address": "3701 Diann Marie Road, LOUISVILLE, KY 40241-3817",
-        "search_radius_miles": 15
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover",
+        "promotion_description": "Buy 1, Get 1 Free"
     },
     "burger_king__6402_claymont_crossing_001": {
         "name": "Burger King (6402 Claymont Crossing)",
         "price_level": 1,
         "slug": "burger-king-6402-claymont-crossing",
         "price_bucket": "$",
-        "eta_text": "12 min",
-        "eta_minutes": 12.0,
-        "availability_text": "12 min",
-        "promotion_active": false,
+        "eta_text": "10 min",
+        "eta_minutes": 10.0,
+        "availability_text": "10 min",
+        "promotion_active": true,
         "promotion_description": "Buy 1, Get 1 Free",
         "is_open": true,
         "categories": [
@@ -411,17 +433,18 @@
         ],
         "address": "6402 Claymont Crossing, Crestwood, KY 40014-6573",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.291761",
+        "search_radius_miles": 15,
+        "market_zone": "Crestwood Core"
     },
     "cm_chicken___norton_commons_001": {
         "name": "CM Chicken  (Norton Commons)",
         "price_level": 2,
         "slug": "cm-chicken-norton-commons",
         "price_bucket": "",
-        "eta_text": "29 min",
-        "eta_minutes": 29.0,
-        "availability_text": "29 min",
+        "eta_text": "26 min",
+        "eta_minutes": 26.0,
+        "availability_text": "26 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -431,26 +454,28 @@
         ],
         "address": "9422 Norton Commons Boulevard, Prospect, KY 40059",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.302929",
+        "search_radius_miles": 15,
+        "market_zone": "Prospect / Norton Commons"
     },
     "cm_chicken__norton_commons_001": {
         "name": "CM Chicken (Norton Commons)",
         "price_level": 2,
         "source": "html_backup",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.304770",
+        "search_radius_miles": 15,
+        "market_zone": "Prospect / Norton Commons"
     },
     "cvs__6425_west_highway_146_001": {
         "name": "CVS (6425 West Highway 146)",
         "price_level": 1,
         "slug": "cvs-6425-west-highway-146",
         "price_bucket": "$",
-        "eta_text": "18 min",
-        "eta_minutes": 18.0,
-        "availability_text": "18 min",
+        "eta_text": "14 min",
+        "eta_minutes": 14.0,
+        "availability_text": "14 min",
         "promotion_active": true,
-        "promotion_description": "Save on Select Items",
+        "promotion_description": "Get $10 off of your order of $35 or more (before taxes and fees). Available for a limited time only.",
         "is_open": true,
         "categories": [
             "Pharmacy",
@@ -465,29 +490,49 @@
         ],
         "address": "6425 West Highway 146, CRESTWOOD, KY 40324",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Crestwood Core"
     },
     "chick_fil_a___10501_westport_rd_001": {
         "name": "Chick-fil-A  (10501 Westport Rd)",
-        "price_level": 2,
-        "rating": null
+        "price_level": 1,
+        "rating": null,
+        "slug": "chick-fil-a-10501-westport-rd",
+        "price_bucket": "$",
+        "eta_text": "",
+        "availability_text": "",
+        "promotion_active": false,
+        "is_open": true,
+        "categories": [
+            "Fast Food",
+            "American",
+            "Breakfast and Brunch",
+            "Chicken"
+        ],
+        "address": "10501 Westport Rd, Louisville, KY 40241",
+        "search_radius_miles": 15,
+        "source": "getPaginatedStoresV1",
+        "last_seen": "2026-06-04T06:38:02.145279",
+        "market_zone": "Westport / Brownsboro",
+        "eta_minutes": 8.0
     },
     "chick_fil_a__10501_westport_rd_001": {
         "name": "Chick-fil-A (10501 Westport Rd)",
         "price_level": 2,
         "source": "html_backup",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.304770",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "chili_s_grill___bar__9720_von_allmen_court_001": {
         "name": "Chili's Grill & Bar (9720 Von Allmen Court)",
         "price_level": 2,
         "slug": "chilis-grill-&-bar-9720-von-allmen-court",
         "price_bucket": "$$",
-        "eta_text": "23 min",
-        "eta_minutes": 23.0,
-        "availability_text": "23 min",
+        "eta_text": "25 min",
+        "eta_minutes": 25.0,
+        "availability_text": "25 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -504,8 +549,9 @@
         ],
         "address": "9720 Von Allmen Court Suite A Louisville, KY",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.302929",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "china_1_001": {
         "name": "China 1",
@@ -513,7 +559,7 @@
         "slug": "china-1",
         "price_bucket": "$$",
         "eta_text": "",
-        "eta_minutes": 14.0,
+        "eta_minutes": 2.0,
         "availability_text": "",
         "promotion_active": false,
         "is_open": true,
@@ -522,18 +568,19 @@
         ],
         "address": "11316 Maple Brook Dr, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover"
     },
     "chipotle_mexican_grill__10333_westport_rd_ste_100_001": {
         "name": "Chipotle Mexican Grill (10333 Westport Rd Ste 100)",
         "price_level": 1,
         "slug": "chipotle-mexican-grill-10333-westport-rd-ste-100",
         "price_bucket": "$",
-        "eta_text": "20 min",
-        "eta_minutes": 20.0,
-        "availability_text": "20 min",
-        "promotion_active": false,
+        "eta_text": "22 min",
+        "eta_minutes": 22.0,
+        "availability_text": "22 min",
+        "promotion_active": true,
         "is_open": true,
         "categories": [
             "Mexican",
@@ -542,7 +589,10 @@
         ],
         "address": "10333 Westport Rd Ste 100, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T10:46:38.155998"
+        "last_seen": "2026-06-09T14:08:34.301417",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro",
+        "promotion_description": "Free Item (Spend $25)"
     },
     "474acf3f-aaad-5360-8435-bc5b01028ae5": {
         "name": "Cinemark (4400 Towne Center Drive  )",
@@ -553,7 +603,7 @@
         "eta_minutes": 33.0,
         "availability_text": "33 min",
         "promotion_active": true,
-        "promotion_description": "Take 25% off your subtotal with a maximum discount of . Discount does not apply to taxes and fees. Cannot be combined with other promotions.",
+        "promotion_description": "Get $10 off of your order of $30 or more (before taxes and fees). Available for a limited time only.",
         "is_open": true,
         "categories": [
             "Hot Dog",
@@ -562,24 +612,26 @@
         ],
         "address": "4400 Towne Center Drive, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "cinemark__4400_towne_center_drive_001": {
         "name": "Cinemark (4400 Towne Center Drive )",
         "price_level": 2,
         "source": "html_backup",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.304770",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "clean_eatz__3565_springhurst_blvd_001": {
         "name": "Clean Eatz (3565 Springhurst Blvd)",
         "price_level": 2,
         "slug": "clean-eatz-3565-springhurst-blvd",
         "price_bucket": "$$",
-        "eta_text": "27 min",
-        "eta_minutes": 27.0,
-        "availability_text": "27 min",
+        "eta_text": "28 min",
+        "eta_minutes": 28.0,
+        "availability_text": "28 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -589,17 +641,18 @@
         ],
         "address": "3565 Springhurst Boulevard, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.291761",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "con_huevos__norton_001": {
         "name": "Con Huevos! Norton",
         "price_level": 2,
         "slug": "con-huevos!-norton",
         "price_bucket": "$$",
-        "eta_text": "Available Wednesday 7:30 AM",
+        "eta_text": "26 min",
         "eta_minutes": 26.0,
-        "availability_text": "Available Wednesday 7:30 AM",
+        "availability_text": "26 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -609,17 +662,18 @@
         ],
         "address": "10639 Meeting Street, Prospect, KY 40059",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Prospect / Norton Commons"
     },
     "craft_house_pizza___westport_001": {
         "name": "Craft House Pizza - Westport",
         "price_level": 2,
         "slug": "craft-house-pizza-westport",
         "price_bucket": "",
-        "eta_text": "28 min",
-        "eta_minutes": 28.0,
-        "availability_text": "28 min",
+        "eta_text": "31 min",
+        "eta_minutes": 31.0,
+        "availability_text": "31 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -630,17 +684,18 @@
         ],
         "address": "2813 North Hurstbourne Parkway, Louisville, KY 40223",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "crumbl__paddock__ky_001": {
         "name": "Crumbl (Paddock, KY)",
         "price_level": 2,
         "slug": "crumbl-paddock-ky",
         "price_bucket": "$$",
-        "eta_text": "20 min",
-        "eta_minutes": 20.0,
-        "availability_text": "20 min",
+        "eta_text": "22 min",
+        "eta_minutes": 22.0,
+        "availability_text": "22 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -651,8 +706,9 @@
         ],
         "address": "4110 Summit Plaza Drive, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.302929",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "cuvee_wine_table_001": {
         "name": "Cuvee Wine Table",
@@ -666,8 +722,9 @@
         "categories": [],
         "address": "3598 Springhurst Blvd, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.295575",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "dick_s_sporting_goods__3555_springhurst_blvd_001": {
         "name": "DICK'S Sporting Goods (3555 Springhurst Blvd)",
@@ -688,18 +745,19 @@
         ],
         "address": "3555 Springhurst Blvd, Louisville, KY 40241-4144",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "dsw__4250_summit_plaza_drive_001": {
         "name": "DSW (4250 Summit Plaza Drive)",
         "price_level": 2,
         "slug": "dsw-4250-summit-plaza-drive",
         "price_bucket": "$$",
-        "eta_text": "31 min",
-        "eta_minutes": 31.0,
-        "availability_text": "31 min",
-        "promotion_active": false,
+        "eta_text": "34 min",
+        "eta_minutes": 34.0,
+        "availability_text": "34 min",
+        "promotion_active": true,
         "is_open": true,
         "categories": [
             "Retail",
@@ -709,19 +767,21 @@
         ],
         "address": "4250 Summit Plaza Drive, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock",
+        "promotion_description": "Save on Select Items"
     },
     "dairy_queen__4811_norton_healthcare_blvd_001": {
         "name": "Dairy Queen (4811 Norton Healthcare Blvd)",
         "price_level": 1,
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
+        "last_seen": "2026-06-09T14:08:34.302929",
         "slug": "dairy-queen-4811-norton-healthcare-blvd",
         "price_bucket": "$",
-        "eta_text": "19 min",
-        "eta_minutes": 19.0,
-        "availability_text": "19 min",
+        "eta_text": "24 min",
+        "eta_minutes": 24.0,
+        "availability_text": "24 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -732,16 +792,17 @@
             "Ice Cream & Frozen Yogurt"
         ],
         "address": "4811 Norton Healthcare Blvd, Louisville, KY 40241-2803",
-        "search_radius_miles": 15
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover"
     },
     "dairy_queen__6603_w_highway_22_001": {
         "name": "Dairy Queen (6603 W Highway 22)",
         "price_level": 1,
         "slug": "dairy-queen-6603-w-highway-22",
         "price_bucket": "$",
-        "eta_text": "12 min",
-        "eta_minutes": 12.0,
-        "availability_text": "12 min",
+        "eta_text": "11 min",
+        "eta_minutes": 11.0,
+        "availability_text": "11 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -753,17 +814,18 @@
         ],
         "address": "6603 W Highway 22, Crestwood, KY 40014-9082",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Crestwood Core"
     },
     "dollar_general__6201_w__highway_146_001": {
         "name": "Dollar General (6201 W. Highway 146)",
         "price_level": 1,
         "slug": "dollar-general-6201-w-highway-146",
         "price_bucket": "$",
-        "eta_text": "33 min",
-        "eta_minutes": 33.0,
-        "availability_text": "33 min",
+        "eta_text": "31 min",
+        "eta_minutes": 31.0,
+        "availability_text": "31 min",
         "promotion_active": true,
         "promotion_description": "Save on Select Items",
         "is_open": true,
@@ -775,17 +837,18 @@
         ],
         "address": "6201 W. Highway 146, Crestwood, KY 40014-7414",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Crestwood Core"
     },
     "dollar_tree__3600_springhurst_blvd_001": {
         "name": "Dollar Tree (3600 Springhurst Blvd.)",
         "price_level": 2,
         "slug": "dollar-tree-3600-springhurst-blvd",
         "price_bucket": "",
-        "eta_text": "56 min",
-        "eta_minutes": 56.0,
-        "availability_text": "56 min",
+        "eta_text": "54 min",
+        "eta_minutes": 54.0,
+        "availability_text": "54 min",
         "promotion_active": true,
         "promotion_description": "Save on Select Items",
         "is_open": true,
@@ -800,17 +863,18 @@
         ],
         "address": "3600 Springhurst Blvd., Louisville, KY 40241-4142",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "dollar_tree__6301_hwy_329_001": {
         "name": "Dollar Tree (6301 Hwy 329)",
         "price_level": 2,
         "slug": "dollar-tree-6301-hwy-329",
         "price_bucket": "",
-        "eta_text": "32 min",
-        "eta_minutes": 32.0,
-        "availability_text": "32 min",
+        "eta_text": "31 min",
+        "eta_minutes": 31.0,
+        "availability_text": "31 min",
         "promotion_active": true,
         "promotion_description": "Save on Select Items",
         "is_open": true,
@@ -825,8 +889,9 @@
         ],
         "address": "6301 Hwy 329, Crestwood, KY 40014",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Crestwood Core"
     },
     "domino_s__10000_brownsboro_rd_001": {
         "name": "Domino's (10000 Brownsboro Rd)",
@@ -834,7 +899,7 @@
         "slug": "dominos-10000-brownsboro-rd",
         "price_bucket": "$",
         "eta_text": "",
-        "eta_minutes": 6.0,
+        "eta_minutes": 17.0,
         "availability_text": "",
         "promotion_active": true,
         "is_open": true,
@@ -847,9 +912,10 @@
         ],
         "address": "10000 Brownsboro Rd, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
+        "last_seen": "2026-06-09T14:08:34.291761",
         "promotion_description": "Save on Select Items",
-        "search_radius_miles": 15
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "domino_s__ste_101__9407_westport_rd_001": {
         "name": "Domino's (Ste 101, 9407 Westport Rd)",
@@ -857,7 +923,7 @@
         "slug": "dominos-ste-101-9407-westport-rd",
         "price_bucket": "$",
         "eta_text": "",
-        "eta_minutes": 6.0,
+        "eta_minutes": 17.0,
         "availability_text": "",
         "promotion_active": true,
         "is_open": true,
@@ -870,18 +936,19 @@
         ],
         "address": "9407 Westport Road Suite 101 Louisville, KY",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
+        "last_seen": "2026-06-09T14:08:34.292764",
         "promotion_description": "Save on Select Items",
-        "search_radius_miles": 15
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "domino_s__ste_2__6332_w_highway_146_001": {
         "name": "Domino's (Ste 2, 6332 W Highway 146)",
         "price_level": 1,
         "slug": "dominos-ste-2-6332-w-highway-146",
         "price_bucket": "$",
-        "eta_text": "19 min",
-        "eta_minutes": 19.0,
-        "availability_text": "19 min",
+        "eta_text": "14 min",
+        "eta_minutes": 14.0,
+        "availability_text": "14 min",
         "promotion_active": true,
         "is_open": true,
         "categories": [
@@ -893,18 +960,19 @@
         ],
         "address": "6332 W Highway 146 Ste #2 Crestwood, KY",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
+        "last_seen": "2026-06-09T14:08:34.292764",
         "promotion_description": "Save on Select Items",
-        "search_radius_miles": 15
+        "search_radius_miles": 15,
+        "market_zone": "Crestwood Core"
     },
     "double_dragon_ii__la_grange_rd_001": {
         "name": "Double Dragon II: La Grange Rd",
         "price_level": 2,
         "slug": "double-dragon-ii:-la-grange-rd",
         "price_bucket": "",
-        "eta_text": "17 min",
-        "eta_minutes": 17.0,
-        "availability_text": "17 min",
+        "eta_text": "Available in 2 min",
+        "eta_minutes": 2.0,
+        "availability_text": "Available in 2 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -913,17 +981,19 @@
             "Noodles"
         ],
         "address": "12480 La Grange Road, Louisville-Jefferson County, KY 40245",
-        "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T14:16:38.568824"
+        "source": "html_backup",
+        "last_seen": "2026-06-09T14:08:34.304770",
+        "search_radius_miles": 15,
+        "market_zone": "La Grange / Buckner"
     },
     "drake_s__paddock_001": {
         "name": "Drake's (Paddock)",
         "price_level": 2,
         "slug": "drakes-paddock",
         "price_bucket": "$$",
-        "eta_text": "22 min",
-        "eta_minutes": 22.0,
-        "availability_text": "22 min",
+        "eta_text": "25 min",
+        "eta_minutes": 25.0,
+        "availability_text": "25 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -934,37 +1004,39 @@
         ],
         "address": "3921 Summit Plaza Dr, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.294461",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "dunkin___9913_brownsboro_rd_001": {
         "name": "Dunkin' (9913 Brownsboro Rd)",
         "price_level": 1,
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
+        "last_seen": "2026-06-09T14:08:34.302929",
         "slug": "dunkin-9913-brownsboro-rd",
         "price_bucket": "$",
-        "eta_text": "17 min",
-        "eta_minutes": 17.0,
-        "availability_text": "17 min",
+        "eta_text": "19 min",
+        "eta_minutes": 19.0,
+        "availability_text": "19 min",
         "promotion_active": true,
-        "promotion_description": "Get $5 off of your order of $20 or more (before taxes and fees). Available for a limited time only.",
+        "promotion_description": "Get $4 off of your order of $16 or more (before taxes and fees). Available for a limited time only.",
         "is_open": true,
         "categories": [
             "Breakfast and Brunch",
             "Donuts"
         ],
         "address": "9913 Brownsboro Rd, Louisville, KY 40241",
-        "search_radius_miles": 15
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "el_nopal__crestwood_001": {
         "name": "El Nopal (Crestwood)",
         "price_level": 1,
         "slug": "el-nopal-crestwood",
         "price_bucket": "$",
-        "eta_text": "12 min",
-        "eta_minutes": 12.0,
-        "availability_text": "12 min",
+        "eta_text": "Currently unavailable",
+        "eta_minutes": 2.0,
+        "availability_text": "Currently unavailable",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -974,18 +1046,19 @@
         ],
         "address": "6825 Central Avenue, Crestwood, KY 40014",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.294461",
+        "search_radius_miles": 15,
+        "market_zone": "Crestwood Core"
     },
     "el_nopal__westport_001": {
         "name": "El Nopal (Westport)",
-        "price_level": 1,
+        "price_level": 2,
         "rating": null,
         "slug": "el-nopal-westport",
         "price_bucket": "$",
-        "eta_text": "19 min",
-        "eta_minutes": 19.0,
-        "availability_text": "19 min",
+        "eta_text": "Available in 2 min",
+        "eta_minutes": 2.0,
+        "availability_text": "Available in 2 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -996,17 +1069,19 @@
             "Burritos"
         ],
         "address": "9451 Westport Rd , Suite 101, Louisville, KY 40241",
-        "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T11:01:38.307336"
+        "source": "html_backup",
+        "last_seen": "2026-06-09T14:08:34.304770",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "fiesta_time__westport_001": {
         "name": "Fiesta Time (Westport)",
         "price_level": 1,
         "slug": "fiesta-time-westport",
         "price_bucket": "$",
-        "eta_text": "22 min",
-        "eta_minutes": 22.0,
-        "availability_text": "22 min",
+        "eta_text": "21 min",
+        "eta_minutes": 21.0,
+        "availability_text": "21 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -1016,8 +1091,9 @@
         ],
         "address": "11320 Maple Brook Dr, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.291761",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "fiesta_time_amigos__norton_commons_001": {
         "name": "Fiesta Time Amigos (Norton Commons)",
@@ -1034,18 +1110,19 @@
         ],
         "address": "10401 Meeting Street, Prospect, KY 40059",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Prospect / Norton Commons"
     },
     "first_watch__springhurst_001": {
         "name": "First Watch (Springhurst)",
         "price_level": 2,
-        "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
+        "source": "html_backup",
+        "last_seen": "2026-06-09T14:08:34.304770",
         "slug": "first-watch-springhurst",
         "price_bucket": "$$",
-        "eta_text": "Available Wednesday 7:00 AM",
-        "availability_text": "Available Wednesday 7:00 AM",
+        "eta_text": "Available Friday 7:00 AM",
+        "availability_text": "Available Friday 7:00 AM",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -1054,17 +1131,19 @@
             "Comfort Food"
         ],
         "address": "10639 Fischer Park Drive, Louisville-Jefferson County, KY 40241",
-        "search_radius_miles": 15
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock",
+        "eta_minutes": 17.0
     },
     "five_below__13401_shelbyville_road_001": {
         "name": "Five Below (13401 Shelbyville Road)",
         "price_level": 2,
         "slug": "five-below-13401-shelbyville-road",
         "price_bucket": "$$",
-        "eta_text": "54 min",
-        "eta_minutes": 54.0,
-        "availability_text": "54 min",
-        "promotion_active": true,
+        "eta_text": "44 min",
+        "eta_minutes": 44.0,
+        "availability_text": "44 min",
+        "promotion_active": false,
         "promotion_description": "Save on Select Items",
         "is_open": true,
         "categories": [
@@ -1078,18 +1157,19 @@
         ],
         "address": "13401 Shelbyville Road, Louisville, KY 40243",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Middletown"
     },
     "five_below__4320_towne_center_dr_001": {
         "name": "Five Below (4320 Towne Center Dr)",
         "price_level": 2,
         "slug": "five-below-4320-towne-center-dr",
         "price_bucket": "$$",
-        "eta_text": "44 min",
-        "eta_minutes": 44.0,
-        "availability_text": "44 min",
-        "promotion_active": true,
+        "eta_text": "40 min",
+        "eta_minutes": 40.0,
+        "availability_text": "40 min",
+        "promotion_active": false,
         "is_open": true,
         "categories": [
             "Retail",
@@ -1102,19 +1182,20 @@
         ],
         "address": "4320 Towne Center Dr, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
+        "last_seen": "2026-06-09T14:08:34.292764",
         "promotion_description": "Save on Select Items",
-        "search_radius_miles": 15
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "five_guys__4116_summit_plaza_dr___a9__ky___475_001": {
         "name": "Five Guys (4116 Summit Plaza Dr. #A9) KY - 475",
-        "price_level": 1,
+        "price_level": 2,
         "rating": null,
         "slug": "five-guys-4116-summit-plaza-dr-#a9-ky-475",
         "price_bucket": "$",
-        "eta_text": "19 min",
-        "eta_minutes": 19.0,
-        "availability_text": "19 min",
+        "eta_text": "Available in 2 min",
+        "eta_minutes": 2.0,
+        "availability_text": "Available in 2 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -1127,8 +1208,10 @@
             "Snacks"
         ],
         "address": "4116 Summit Plaza Dr., Louisville, KY 40241",
-        "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T11:01:38.307336"
+        "source": "html_backup",
+        "last_seen": "2026-06-09T14:08:34.304770",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "fleur_de_tea_001": {
         "name": "Fleur de Tea",
@@ -1136,7 +1219,7 @@
         "slug": "fleur-de-tea",
         "price_bucket": "$$",
         "eta_text": "",
-        "eta_minutes": 8.0,
+        "eta_minutes": 17.0,
         "availability_text": "",
         "promotion_active": false,
         "is_open": true,
@@ -1147,17 +1230,18 @@
         ],
         "address": "10704 Meeting Street, Prospect, KY 40059",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Prospect / Norton Commons"
     },
     "floral___gift_boutique_by_the_fresh_market__louisville__ky_001": {
         "name": "Floral & Gift Boutique By The Fresh Market (Louisville, KY)",
         "price_level": 2,
         "slug": "floral-&-gift-boutique-by-the-fresh-market-louisville-ky",
         "price_bucket": "",
-        "eta_text": "33 min",
-        "eta_minutes": 33.0,
-        "availability_text": "33 min",
+        "eta_text": "38 min",
+        "eta_minutes": 38.0,
+        "availability_text": "38 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -1166,17 +1250,18 @@
         ],
         "address": "4100 Summit Plaza Drive, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "fresh___ready_from_kroger_001": {
         "name": "Fresh & Ready from Kroger",
         "price_level": 2,
         "slug": "fresh-&-ready-from-kroger",
         "price_bucket": "$$",
-        "eta_text": "35 min",
-        "eta_minutes": 35.0,
-        "availability_text": "35 min",
+        "eta_text": "38 min",
+        "eta_minutes": 38.0,
+        "availability_text": "38 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -1184,8 +1269,10 @@
         ],
         "address": "10010 Ballardsville Rd, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.294461",
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover",
+        "promotion_description": "Save on Select Items"
     },
     "friends_peruvian_culinary_001": {
         "name": "Friends Peruvian Culinary",
@@ -1193,7 +1280,7 @@
         "slug": "friends-peruvian-culinary",
         "price_bucket": "",
         "eta_text": "Available Wednesday 2:00 PM",
-        "eta_minutes": 2.0,
+        "eta_minutes": 26.0,
         "availability_text": "Available Wednesday 2:00 PM",
         "promotion_active": false,
         "is_open": true,
@@ -1204,17 +1291,18 @@
         ],
         "address": "4111 Murphy Lane , Suite 2b, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.295061",
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover"
     },
     "gnc__avish_gardens_001": {
         "name": "GNC (Avish Gardens)",
         "price_level": 1,
         "slug": "gnc-avish-gardens",
         "price_bucket": "$",
-        "eta_text": "30 min",
-        "eta_minutes": 30.0,
-        "availability_text": "30 min",
+        "eta_text": "31 min",
+        "eta_minutes": 31.0,
+        "availability_text": "31 min",
         "promotion_active": true,
         "promotion_description": "Save on Select Items",
         "is_open": true,
@@ -1225,17 +1313,18 @@
         ],
         "address": "9472 Brownsboro Road, LOUISVILLE, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "graeter_s_ice_cream__9430_brownsboro_rd_001": {
         "name": "Graeter's Ice Cream (9430 Brownsboro Rd)",
         "price_level": 1,
         "slug": "graeters-ice-cream-9430-brownsboro-rd",
         "price_bucket": "$",
-        "eta_text": "26 min",
-        "eta_minutes": 26.0,
-        "availability_text": "26 min",
+        "eta_text": "25 min",
+        "eta_minutes": 25.0,
+        "availability_text": "25 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -1246,17 +1335,18 @@
         ],
         "address": "9430 Brownsboro Rd, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.302929",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "green_district_salads___old_brownsboro_crossing_001": {
         "name": "Green District Salads - Old Brownsboro Crossing",
         "price_level": 2,
         "slug": "green-district-salads-old-brownsboro-crossing",
         "price_bucket": "",
-        "eta_text": "23 min",
-        "eta_minutes": 23.0,
-        "availability_text": "23 min",
+        "eta_text": "25 min",
+        "eta_minutes": 25.0,
+        "availability_text": "25 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -1266,17 +1356,18 @@
         ],
         "address": "9850 Von Allmen Court, 102, Louisville-Jefferson County, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.302929",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "gustavo_s_mexican_grill__crestwood_001": {
         "name": "Gustavo's Mexican Grill (Crestwood)",
         "price_level": 2,
         "slug": "gustavos-mexican-grill-crestwood",
         "price_bucket": "$$",
-        "eta_text": "10 min",
-        "eta_minutes": 10.0,
-        "availability_text": "10 min",
+        "eta_text": "Available in 2 min",
+        "eta_minutes": 2.0,
+        "availability_text": "Available in 2 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -1286,17 +1377,19 @@
             "Seafood"
         ],
         "address": "6402 Westwind Way  # 1, Crestwood, KY 40014",
-        "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T11:01:38.307336"
+        "source": "html_backup",
+        "last_seen": "2026-06-09T14:08:34.304770",
+        "search_radius_miles": 15,
+        "market_zone": "Crestwood Core"
     },
     "gustavo_s_mexican_grill__norton_commons_001": {
         "name": "Gustavo\u2019s Mexican Grill (Norton Commons)",
         "price_level": 2,
         "slug": "gustavos-mexican-grill-norton-commons",
         "price_bucket": "$$",
-        "eta_text": "Currently unavailable",
-        "eta_minutes": 14.0,
-        "availability_text": "Currently unavailable",
+        "eta_text": "26 min",
+        "eta_minutes": 26.0,
+        "availability_text": "26 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -1307,17 +1400,18 @@
         ],
         "address": "10715 Meeting Street, Prospect, KY 40059",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.302929",
+        "search_radius_miles": 15,
+        "market_zone": "Prospect / Norton Commons"
     },
     "hometown_pizza__crestwood_001": {
         "name": "Hometown Pizza (Crestwood)",
         "price_level": 1,
         "slug": "hometown-pizza-crestwood",
         "price_bucket": "$",
-        "eta_text": "17 min",
-        "eta_minutes": 17.0,
-        "availability_text": "17 min",
+        "eta_text": "15 min",
+        "eta_minutes": 15.0,
+        "availability_text": "15 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -1327,8 +1421,9 @@
         ],
         "address": "6900 Potts Lane, Crestwood, KY 40014",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.302929",
+        "search_radius_miles": 15,
+        "market_zone": "Crestwood Core"
     },
     "indian_crepe_co_001": {
         "name": "Indian Crepe Co",
@@ -1350,8 +1445,9 @@
         ],
         "address": "3741 Pamela Rae Drive, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.295575",
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover"
     },
     "indian_vegan_experiment_001": {
         "name": "Indian Vegan Experiment",
@@ -1375,17 +1471,18 @@
         ],
         "address": "3741 Pamela Rae Drive, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.295575",
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover"
     },
     "it_s_just_wings__9720_von_allmen_court_001": {
         "name": "It's Just Wings (9720 Von Allmen Court)",
         "price_level": 2,
         "slug": "its-just-wings-9720-von-allmen-court",
         "price_bucket": "$$",
-        "eta_text": "22 min",
-        "eta_minutes": 22.0,
-        "availability_text": "22 min",
+        "eta_text": "25 min",
+        "eta_minutes": 25.0,
+        "availability_text": "25 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -1396,19 +1493,20 @@
         ],
         "address": "9720 Von Allmen Court, Louisville, KY 40241-2833",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "jack_in_the_box__9491_westport_rd_001": {
         "name": "Jack in the Box (9491 Westport Rd)",
         "price_level": 1,
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
+        "last_seen": "2026-06-09T14:08:34.302929",
         "slug": "jack-in-the-box-9491-westport-rd",
         "price_bucket": "$",
-        "eta_text": "27 min",
-        "eta_minutes": 27.0,
-        "availability_text": "27 min",
+        "eta_text": "33 min",
+        "eta_minutes": 33.0,
+        "availability_text": "33 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -1417,7 +1515,9 @@
             "Fast Food"
         ],
         "address": "9491 Westport Rd, Louisville, KY 40241-2219",
-        "search_radius_miles": 15
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro",
+        "promotion_description": "Save on Select Items"
     },
     "jaggers__westport_001": {
         "name": "Jaggers (Westport)",
@@ -1425,9 +1525,9 @@
         "rating": null,
         "slug": "jaggers-westport",
         "price_bucket": "",
-        "eta_text": "14 min",
-        "eta_minutes": 14.0,
-        "availability_text": "14 min",
+        "eta_text": "20 min",
+        "eta_minutes": 20.0,
+        "availability_text": "20 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -1438,16 +1538,18 @@
         ],
         "address": "10690 Westport Road, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T11:01:38.307336"
+        "last_seen": "2026-06-09T14:08:34.297336",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "jeff_s_donuts__springhurst_001": {
         "name": "Jeff's Donuts (Springhurst)",
         "price_level": 2,
         "slug": "jeffs-donuts-springhurst",
         "price_bucket": "",
-        "eta_text": "19 min",
-        "eta_minutes": 19.0,
-        "availability_text": "19 min",
+        "eta_text": "20 min",
+        "eta_minutes": 20.0,
+        "availability_text": "20 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -1456,8 +1558,9 @@
         ],
         "address": "10513 Fischer Park Drive, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "jersey_mike_s__10521_fischer_park_drive_001": {
         "name": "Jersey Mike's (10521 Fischer Park Drive)",
@@ -1465,7 +1568,7 @@
         "slug": "jersey-mikes-10521-fischer-park-drive",
         "price_bucket": "$",
         "eta_text": "",
-        "eta_minutes": 7.0,
+        "eta_minutes": 17.0,
         "availability_text": "",
         "promotion_active": false,
         "is_open": true,
@@ -1475,17 +1578,18 @@
         ],
         "address": "10521 Fischer Park Drive, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.302929",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "jet_s_pizza__westport_001": {
         "name": "Jet's Pizza (Westport)",
         "price_level": 2,
         "slug": "jets-pizza-westport",
         "price_bucket": "$$",
-        "eta_text": "Available in 7 min",
-        "eta_minutes": 7.0,
-        "availability_text": "Available in 7 min",
+        "eta_text": "Available in 3 min",
+        "eta_minutes": 3.0,
+        "availability_text": "Available in 3 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -1493,8 +1597,9 @@
         ],
         "address": "10494 Westport Rd, Louisville, KY 40241",
         "source": "html_backup",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.304770",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "jimmy_john_s__10520_westport_rd_001": {
         "name": "Jimmy John's (10520 Westport Rd)",
@@ -1502,9 +1607,9 @@
         "slug": "jimmy-johns-10520-westport-rd",
         "price_bucket": "$",
         "eta_text": "",
-        "eta_minutes": 15.0,
+        "eta_minutes": 2.0,
         "availability_text": "",
-        "promotion_active": false,
+        "promotion_active": true,
         "is_open": true,
         "categories": [
             "Deli",
@@ -1514,8 +1619,10 @@
         ],
         "address": "10520 Westport Rd, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro",
+        "promotion_description": "Free Item (Spend $20)"
     },
     "jimmy_john_s__12915_factory_ln_001": {
         "name": "Jimmy John's (12915 Factory Ln)",
@@ -1523,9 +1630,9 @@
         "slug": "jimmy-johns-12915-factory-ln",
         "price_bucket": "$",
         "eta_text": "",
-        "eta_minutes": 15.0,
+        "eta_minutes": 2.0,
         "availability_text": "",
-        "promotion_active": false,
+        "promotion_active": true,
         "is_open": true,
         "categories": [
             "sandwiches",
@@ -1535,8 +1642,10 @@
         ],
         "address": "12915 Factory Ln, Louisville, KY 40245",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover",
+        "promotion_description": "Free Item (Spend $20)"
     },
     "jimmy_john_s__4828_norton_healthcare_blvd_001": {
         "name": "Jimmy John's (4828 Norton Healthcare Blvd)",
@@ -1544,17 +1653,19 @@
         "slug": "jimmy-johns-4828-norton-healthcare-blvd",
         "price_bucket": "",
         "eta_text": "",
-        "eta_minutes": 15.0,
+        "eta_minutes": 2.0,
         "availability_text": "",
-        "promotion_active": false,
+        "promotion_active": true,
         "is_open": true,
         "categories": [
             "sandwiches"
         ],
         "address": "4828 Norton Healthcare Blvd, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover",
+        "promotion_description": "Free Item (Spend $20)"
     },
     "joella_s_hot_chicken__middletown_001": {
         "name": "Joella's Hot Chicken (Middletown)",
@@ -1565,7 +1676,7 @@
         "eta_text": "25 min",
         "eta_minutes": 25.0,
         "availability_text": "25 min",
-        "promotion_active": false,
+        "promotion_active": true,
         "is_open": true,
         "categories": [
             "Comfort Food",
@@ -1576,16 +1687,19 @@
         ],
         "address": "13401 Shelbyville Rd, Louisvile, KY 40223",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T14:01:38.399278"
+        "last_seen": "2026-06-09T14:08:34.302929",
+        "search_radius_miles": 15,
+        "market_zone": "Middletown",
+        "promotion_description": "Buy 1, Get 1 Free"
     },
     "kfc__12420_lagrange_road_001": {
         "name": "KFC (12420 LaGrange Road)",
         "price_level": 1,
         "slug": "kfc-12420-lagrange-road",
         "price_bucket": "$",
-        "eta_text": "16 min",
-        "eta_minutes": 16.0,
-        "availability_text": "16 min",
+        "eta_text": "15 min",
+        "eta_minutes": 15.0,
+        "availability_text": "15 min",
         "promotion_active": true,
         "is_open": true,
         "categories": [
@@ -1598,17 +1712,18 @@
         ],
         "address": "12420 Lagrange Road, Louisville, KY 40245",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "promotion_description": "Save on Select Items",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.291761",
+        "promotion_description": "Buy 1, Get 1 Free",
+        "search_radius_miles": 15,
+        "market_zone": "La Grange / Buckner"
     },
     "krispy_krunchy_chicken__11401_westport_rd_001": {
         "name": "Krispy Krunchy Chicken (11401 Westport Rd)",
         "price_level": 1,
         "slug": "krispy-krunchy-chicken-11401-westport-rd",
         "price_bucket": "$",
-        "eta_text": "28 min",
-        "availability_text": "28 min",
+        "eta_text": "25 min",
+        "availability_text": "25 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -1618,18 +1733,19 @@
         ],
         "address": "11401 Westport Rd, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "eta_minutes": 28.0,
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "eta_minutes": 25.0,
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "kroger__ballardsville_kroger_001": {
         "name": "Kroger (Ballardsville Kroger)",
         "price_level": 2,
         "slug": "kroger-ballardsville-kroger",
         "price_bucket": "",
-        "eta_text": "4:21PM",
-        "eta_minutes": 8.0,
-        "availability_text": "4:21PM",
+        "eta_text": "2:41PM",
+        "eta_minutes": 3.0,
+        "availability_text": "2:41PM",
         "promotion_active": true,
         "promotion_description": "Save on Select Items",
         "is_open": true,
@@ -1640,17 +1756,18 @@
         ],
         "address": "10010 Ballardsville Rd, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.291761",
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover"
     },
     "kroger__kroger_buckner_001": {
         "name": "Kroger (Kroger Buckner)",
         "price_level": 2,
         "slug": "kroger-kroger-buckner",
         "price_bucket": "$$",
-        "eta_text": "4:24PM",
-        "eta_minutes": 8.0,
-        "availability_text": "4:24PM",
+        "eta_text": "2:42PM",
+        "eta_minutes": 17.0,
+        "availability_text": "2:42PM",
         "promotion_active": true,
         "promotion_description": "Save on Select Items",
         "is_open": true,
@@ -1661,16 +1778,17 @@
         ],
         "address": "2835 S Highway 393, Lagrange, KY 40031",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "La Grange / Buckner"
     },
     "kroger__shops_of_forest_springs_001": {
         "name": "Kroger (Shops Of Forest Springs)",
         "price_level": 2,
         "slug": "kroger-shops-of-forest-springs",
         "price_bucket": "",
-        "eta_text": "4:17PM",
-        "availability_text": "4:17PM",
+        "eta_text": "2:35PM",
+        "availability_text": "2:35PM",
         "promotion_active": true,
         "promotion_description": "Save on Select Items",
         "is_open": true,
@@ -1681,18 +1799,20 @@
         ],
         "address": "12450 La Grange Rd, Louisville, KY 40245",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.291761",
+        "search_radius_miles": 15,
+        "market_zone": "La Grange / Buckner",
+        "eta_minutes": 3.0
     },
     "kroger__springhurst_001": {
         "name": "Kroger (Springhurst)",
         "price_level": 2,
         "slug": "kroger-springhurst",
         "price_bucket": "$$",
-        "eta_text": "4:24PM",
-        "eta_minutes": 8.0,
-        "availability_text": "4:24PM",
-        "promotion_active": false,
+        "eta_text": "2:45PM",
+        "eta_minutes": 17.0,
+        "availability_text": "2:45PM",
+        "promotion_active": true,
         "promotion_description": "Save on Select Items",
         "is_open": true,
         "categories": [
@@ -1702,16 +1822,17 @@
         ],
         "address": "9440 Brownsboro Rd, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "kroger__westport_plaza_001": {
         "name": "Kroger (Westport Plaza)",
         "price_level": 2,
         "slug": "kroger-westport-plaza",
         "price_bucket": "$$",
-        "eta_text": "4:23PM",
-        "availability_text": "4:23PM",
+        "eta_text": "2:57PM",
+        "availability_text": "2:57PM",
         "promotion_active": true,
         "promotion_description": "Save on Select Items",
         "is_open": true,
@@ -1722,8 +1843,10 @@
         ],
         "address": "9501 Westport Rd, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.302929",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro",
+        "eta_minutes": 3.0
     },
     "lentil_001": {
         "name": "Lentil",
@@ -1743,8 +1866,9 @@
         ],
         "address": "3741 Pamela Rae Drive, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.295061",
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover"
     },
     "liquor_barn__middletown_commons_001": {
         "name": "Liquor Barn (Middletown Commons)",
@@ -1752,7 +1876,7 @@
         "slug": "liquor-barn-middletown-commons",
         "price_bucket": "",
         "eta_text": "",
-        "eta_minutes": 7.0,
+        "eta_minutes": 17.0,
         "availability_text": "",
         "promotion_active": true,
         "promotion_description": "Save on Select Items",
@@ -1762,17 +1886,18 @@
         ],
         "address": "13401 Shelbyville Road, Middletown, KY 40223",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.302929",
+        "search_radius_miles": 15,
+        "market_zone": "Middletown"
     },
     "liquor_barn__springhurst_001": {
         "name": "Liquor Barn (Springhurst)",
         "price_level": 2,
         "slug": "liquor-barn-springhurst",
         "price_bucket": "",
-        "eta_text": "21 min",
-        "eta_minutes": 21.0,
-        "availability_text": "21 min",
+        "eta_text": "24 min",
+        "eta_minutes": 24.0,
+        "availability_text": "24 min",
         "promotion_active": true,
         "promotion_description": "Save on Select Items",
         "is_open": true,
@@ -1781,17 +1906,18 @@
         ],
         "address": "4131 Towne Center Drive, Louisville-Jefferson County, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "liquor_junction_001": {
         "name": "Liquor Junction",
         "price_level": 2,
         "slug": "liquor-junction",
         "price_bucket": "",
-        "eta_text": "17 min",
-        "eta_minutes": 17.0,
-        "availability_text": "17 min",
+        "eta_text": "18 min",
+        "eta_minutes": 18.0,
+        "availability_text": "18 min",
         "promotion_active": true,
         "promotion_description": "Get $2 off of your order of $10 or more (before taxes and fees). Available for a limited time only.",
         "is_open": true,
@@ -1800,18 +1926,19 @@
         ],
         "address": "11304 Maple Brook Dr, Louisville-Jefferson County, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover"
     },
     "liquor_palate_001": {
         "name": "Liquor Palate",
         "price_level": 2,
         "slug": "liquor-palate",
         "price_bucket": "",
-        "eta_text": "19 min",
-        "eta_minutes": 19.0,
-        "availability_text": "19 min",
-        "promotion_active": false,
+        "eta_text": "28 min",
+        "eta_minutes": 28.0,
+        "availability_text": "28 min",
+        "promotion_active": true,
         "is_open": true,
         "categories": [
             "Alcohol",
@@ -1823,17 +1950,19 @@
         ],
         "address": "Chamberlain Lane, Louisville-Jefferson County, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock",
+        "promotion_description": "Save on Select Items"
     },
     "little_caesars__6001_pleasant_colony_ct_001": {
         "name": "Little Caesars (6001 Pleasant Colony Ct)",
         "price_level": 1,
         "slug": "little-caesars-6001-pleasant-colony-ct",
         "price_bucket": "$",
-        "eta_text": "19 min",
-        "eta_minutes": 19.0,
-        "availability_text": "19 min",
+        "eta_text": "17 min",
+        "eta_minutes": 17.0,
+        "availability_text": "17 min",
         "promotion_active": true,
         "promotion_description": "Get $5 off of your order of $35 or more (before taxes and fees). Available for a limited time only.",
         "is_open": true,
@@ -1846,17 +1975,18 @@
         ],
         "address": "6001 Pleasant Colony Ct, Crestwood, KY 40014",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Crestwood Core"
     },
     "load_it__restaurant__12905_factory_ln_001": {
         "name": "Load It! Restaurant (12905 Factory Ln)",
         "price_level": 2,
         "slug": "load-it!-restaurant-12905-factory-ln",
         "price_bucket": "",
-        "eta_text": "22 min",
-        "eta_minutes": 22.0,
-        "availability_text": "22 min",
+        "eta_text": "Currently unavailable",
+        "eta_minutes": 16.0,
+        "availability_text": "Currently unavailable",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -1866,18 +1996,19 @@
         ],
         "address": "12905 Factory Ln, Louisville, KY 40245-2034",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.294461",
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover"
     },
     "lorenzo_s_corner_pizza_and_pub_001": {
         "name": "Lorenzo\u2019s Corner Pizza And Pub",
         "price_level": 2,
         "slug": "lorenzos-corner-pizza-and-pub",
         "price_bucket": "",
-        "eta_text": "25 min",
-        "eta_minutes": 25.0,
-        "availability_text": "25 min",
-        "promotion_active": false,
+        "eta_text": "Currently unavailable",
+        "eta_minutes": 33.0,
+        "availability_text": "Currently unavailable",
+        "promotion_active": true,
         "is_open": true,
         "categories": [
             "Sandwiches",
@@ -1891,17 +2022,19 @@
         ],
         "address": "4111 Murphy Lane, Louisville-Jefferson County, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.294461",
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover",
+        "promotion_description": "Get $7.50 off of your order of $50 or more (before taxes and fees). Available for a limited time only."
     },
     "lowe_s__4930_norton_healthcare_blvd_001": {
         "name": "Lowe's (4930 Norton Healthcare Blvd)",
         "price_level": 2,
         "slug": "lowes-4930-norton-healthcare-blvd",
         "price_bucket": "$$",
-        "eta_text": "38 min",
-        "eta_minutes": 38.0,
-        "availability_text": "38 min",
+        "eta_text": "41 min",
+        "eta_minutes": 41.0,
+        "availability_text": "41 min",
         "promotion_active": true,
         "promotion_description": "Save on Select Items",
         "is_open": true,
@@ -1914,8 +2047,9 @@
         ],
         "address": "4930 Norton Healthcare Blvd, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover"
     },
     "malone_s___louisville_001": {
         "name": "Malone's - Louisville",
@@ -1929,8 +2063,9 @@
         "categories": [],
         "address": "4370 Summit Plaza Dr, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.295061",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "malone_s_paddock_001": {
         "name": "Malone's Paddock",
@@ -1949,17 +2084,18 @@
         ],
         "address": "4370 Summit Plaza Drive, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "mariscos_los_plebes_001": {
         "name": "Mariscos los plebes",
         "price_level": 2,
         "slug": "mariscos-los-plebes",
         "price_bucket": "",
-        "eta_text": "18 min",
-        "eta_minutes": 18.0,
-        "availability_text": "18 min",
+        "eta_text": "21 min",
+        "eta_minutes": 21.0,
+        "availability_text": "21 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -1970,8 +2106,9 @@
         ],
         "address": "2610 Chamberlain Lane, Louisville-Jefferson County, KY 40245",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "martin_s_bar_b_que_joint__louisville_001": {
         "name": "Martin\u2019s Bar-B-Que Joint (Louisville)",
@@ -1979,9 +2116,9 @@
         "rating": null,
         "slug": "martins-bar-b-que-joint-louisville",
         "price_bucket": "",
-        "eta_text": "14 min",
-        "eta_minutes": 14.0,
-        "availability_text": "14 min",
+        "eta_text": "Available in 2 min",
+        "eta_minutes": 2.0,
+        "availability_text": "Available in 2 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -1990,17 +2127,20 @@
             "Burgers"
         ],
         "address": "3408 Indian Lake Drive, LOUISVILLE, KY 40241",
-        "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T11:01:38.307336"
+        "source": "html_backup",
+        "last_seen": "2026-06-09T14:08:34.304770",
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover",
+        "promotion_description": "Save on Select Items"
     },
     "mcalister_s_deli__4002_towne_center_drive_001": {
         "name": "McAlister's Deli (4002 Towne Center Drive)",
         "price_level": 1,
         "slug": "mcalisters-deli-4002-towne-center-drive",
         "price_bucket": "$",
-        "eta_text": "24 min",
-        "eta_minutes": 24.0,
-        "availability_text": "24 min",
+        "eta_text": "25 min",
+        "eta_minutes": 25.0,
+        "availability_text": "25 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -2012,18 +2152,20 @@
         ],
         "address": "4002 Towne Center Drive, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.302929",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock",
+        "promotion_description": "Get $5 off of your order of $30 or more (before taxes and fees). Available for a limited time only."
     },
     "mcdonald_s__3850_commerce_parkway_001": {
         "name": "McDonald's (3850 commerce parkway)",
         "price_level": 1,
         "slug": "mcdonalds-3850-commerce-parkway",
         "price_bucket": "$",
-        "eta_text": "27 min",
-        "eta_minutes": 27.0,
-        "availability_text": "27 min",
-        "promotion_active": false,
+        "eta_text": "23 min",
+        "eta_minutes": 23.0,
+        "availability_text": "23 min",
+        "promotion_active": true,
         "is_open": true,
         "categories": [
             "American",
@@ -2031,17 +2173,19 @@
         ],
         "address": "3850 Commerce Parkway, Lagrange, KY 40031",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "La Grange / Buckner",
+        "promotion_description": "Get $5 off of your order of $25 or more (before taxes and fees). Available for a limited time only."
     },
     "mcdonald_s_us__9825_brownsboro_rd_001": {
         "name": "McDonald's US (9825 Brownsboro Rd)",
         "price_level": 1,
         "slug": "mcdonalds-us-9825-brownsboro-rd",
         "price_bucket": "$",
-        "eta_text": "",
-        "availability_text": "",
-        "promotion_active": false,
+        "eta_text": "20 min",
+        "availability_text": "20 min",
+        "promotion_active": true,
         "is_open": true,
         "categories": [
             "American",
@@ -2050,19 +2194,21 @@
         ],
         "address": "9825 Brownsboro Rd, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "eta_minutes": 17.0,
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.302929",
+        "eta_minutes": 20.0,
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro",
+        "promotion_description": "Get $5 off of your order of $25 or more (before taxes and fees). Available for a limited time only."
     },
     "mcdonald_s___6410_w_hwy_146_001": {
         "name": "McDonald's\u00ae (6410 W Hwy 146)",
         "price_level": 1,
         "slug": "mcdonalds-6410-w-hwy-146",
         "price_bucket": "$",
-        "eta_text": "12 min",
-        "eta_minutes": 12.0,
-        "availability_text": "12 min",
-        "promotion_active": false,
+        "eta_text": "10 min",
+        "eta_minutes": 10.0,
+        "availability_text": "10 min",
+        "promotion_active": true,
         "is_open": true,
         "categories": [
             "American",
@@ -2071,26 +2217,29 @@
         ],
         "address": "6410 W Hwy 146, Crestwood, KY 40014",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Crestwood Core",
+        "promotion_description": "Get $5 off of your order of $25 or more (before taxes and fees). Available for a limited time only."
     },
     "mcdonald_s___la_grange___service_001": {
         "name": "McDonald's\u00ae (La Grange & Service)",
         "price_level": 2,
         "source": "html_backup",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.304770",
+        "search_radius_miles": 15,
+        "market_zone": "La Grange / Buckner"
     },
     "mcdonald_s___westport___goose_creek_001": {
         "name": "McDonald's\u00ae (Westport & Goose Creek)",
         "price_level": 1,
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
+        "last_seen": "2026-06-09T14:08:34.302929",
         "slug": "mcdonalds-westport-&-goose-creek",
         "price_bucket": "$",
-        "eta_text": "",
-        "availability_text": "",
-        "promotion_active": false,
+        "eta_text": "24 min",
+        "availability_text": "24 min",
+        "promotion_active": true,
         "is_open": true,
         "categories": [
             "American",
@@ -2098,17 +2247,19 @@
             "Fast Food"
         ],
         "address": "9254 Westport Rd, Louisville, Ky 40241, Usa, Rolling Hills, KY 40242",
-        "eta_minutes": 20.0,
-        "search_radius_miles": 15
+        "eta_minutes": 24.0,
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro",
+        "promotion_description": "Get $5 off of your order of $25 or more (before taxes and fees). Available for a limited time only."
     },
     "meijer__4100_towne_center_dr_001": {
         "name": "Meijer (4100 Towne Center Dr)",
         "price_level": 1,
         "slug": "meijer-4100-towne-center-dr",
         "price_bucket": "$",
-        "eta_text": "4:24PM",
-        "eta_minutes": 8.0,
-        "availability_text": "4:24PM",
+        "eta_text": "2:47PM",
+        "eta_minutes": 3.0,
+        "availability_text": "2:47PM",
         "promotion_active": true,
         "promotion_description": "Save on Select Items",
         "is_open": true,
@@ -2126,17 +2277,18 @@
         ],
         "address": "4100 Towne Center Dr, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.291761",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "meijer_beer__wine___spirits__4100_towne_center_dr_001": {
         "name": "Meijer Beer, Wine & Spirits (4100 Towne Center Dr)",
         "price_level": 2,
         "slug": "meijer-beer-wine-&-spirits-4100-towne-center-dr",
         "price_bucket": "",
-        "eta_text": "31 min",
-        "eta_minutes": 31.0,
-        "availability_text": "31 min",
+        "eta_text": "35 min",
+        "eta_minutes": 35.0,
+        "availability_text": "35 min",
         "promotion_active": true,
         "promotion_description": "Save on Select Items",
         "is_open": true,
@@ -2147,17 +2299,18 @@
         ],
         "address": "4100 Towne Center Dr, Louisville, KY 402414153",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "meijer_pet__4100_towne_center_dr__4100_towne_center_dr_001": {
         "name": "Meijer Pet (4100 Towne Center Dr)(4100 Towne Center Dr)",
         "price_level": 2,
         "slug": "meijer-pet-4100-towne-center-dr4100-towne-center-dr",
         "price_bucket": "",
-        "eta_text": "37 min",
-        "eta_minutes": 37.0,
-        "availability_text": "37 min",
+        "eta_text": "38 min",
+        "eta_minutes": 38.0,
+        "availability_text": "38 min",
         "promotion_active": true,
         "promotion_description": "Save on Select Items",
         "is_open": true,
@@ -2167,17 +2320,18 @@
         ],
         "address": "4100 Towne Center Dr, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "michaels__10221_westport_rd_001": {
         "name": "Michaels (10221 Westport Rd)",
         "price_level": 2,
         "slug": "michaels-10221-westport-rd",
         "price_bucket": "$$",
-        "eta_text": "42 min",
-        "eta_minutes": 42.0,
-        "availability_text": "42 min",
+        "eta_text": "48 min",
+        "eta_minutes": 48.0,
+        "availability_text": "48 min",
         "promotion_active": true,
         "promotion_description": "Save on Select Items",
         "is_open": true,
@@ -2191,18 +2345,19 @@
         ],
         "address": "10221 Westport Rd, Louisville, KY 40241-2147",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "moe_s_southwest_grill__4652_chamberlain_lane_001": {
         "name": "Moe's Southwest Grill (4652 Chamberlain Lane)",
         "price_level": 1,
         "slug": "moes-southwest-grill-4652-chamberlain-lane",
         "price_bucket": "$",
-        "eta_text": "19 min",
-        "eta_minutes": 19.0,
-        "availability_text": "19 min",
-        "promotion_active": false,
+        "eta_text": "22 min",
+        "eta_minutes": 22.0,
+        "availability_text": "22 min",
+        "promotion_active": true,
         "is_open": true,
         "categories": [
             "Mexican",
@@ -2213,8 +2368,10 @@
         ],
         "address": "4652 Chamberlain Lane, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.302929",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock",
+        "promotion_description": "Buy 1, Get 1 Free"
     },
     "noah_s_kitchen__9850_von_allmen_court_001": {
         "name": "Noah's Kitchen (9850 Von Allmen Court)",
@@ -2233,8 +2390,9 @@
         ],
         "address": "9850 Von Allmen Court, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "o_line_001": {
         "name": "O Line",
@@ -2242,7 +2400,7 @@
         "slug": "o-line",
         "price_bucket": "$",
         "eta_text": "Currently unavailable",
-        "eta_minutes": 14.0,
+        "eta_minutes": 1.0,
         "availability_text": "Currently unavailable",
         "promotion_active": false,
         "is_open": true,
@@ -2253,17 +2411,18 @@
         ],
         "address": "2813 N Hurstbourne Pkwy, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.294461",
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover"
     },
     "office_depot_officemax__3501_springhurst_blvd_001": {
         "name": "Office Depot OfficeMax (3501 SPRINGHURST BLVD.)",
         "price_level": 2,
         "slug": "office-depot-officemax-3501-springhurst-blvd",
         "price_bucket": "$$",
-        "eta_text": "37 min",
-        "eta_minutes": 37.0,
-        "availability_text": "37 min",
+        "eta_text": "36 min",
+        "eta_minutes": 36.0,
+        "availability_text": "36 min",
         "promotion_active": true,
         "promotion_description": "Save on Select Items",
         "is_open": true,
@@ -2276,8 +2435,9 @@
         ],
         "address": "3501 Springhurst Blvd., LOUISVILLE, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "oishii_ramen_001": {
         "name": "Oishii Ramen",
@@ -2285,9 +2445,9 @@
         "rating": null,
         "slug": "oishii-ramen",
         "price_bucket": "",
-        "eta_text": "11 min",
-        "eta_minutes": 11.0,
-        "availability_text": "11 min",
+        "eta_text": "Available in 2 min",
+        "eta_minutes": 2.0,
+        "availability_text": "Available in 2 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -2296,18 +2456,20 @@
             "Comfort Food"
         ],
         "address": "12472 La Grange Road, Louisville-Jefferson County, KY 40245",
-        "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T11:01:38.307336"
+        "source": "html_backup",
+        "last_seen": "2026-06-09T14:08:34.304770",
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover"
     },
     "outback_steakhouse__9498_brownsboro_road_001": {
         "name": "Outback Steakhouse (9498 Brownsboro Road)",
-        "price_level": 1,
+        "price_level": 2,
         "rating": null,
         "slug": "outback-steakhouse-9498-brownsboro-road",
         "price_bucket": "$",
-        "eta_text": "27 min",
-        "eta_minutes": 27.0,
-        "availability_text": "27 min",
+        "eta_text": "Available in 2 min",
+        "eta_minutes": 2.0,
+        "availability_text": "Available in 2 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -2322,17 +2484,19 @@
             "Group Friendly"
         ],
         "address": "9498 Brownsboro Road, Louisville, KY 40241",
-        "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T11:01:38.307336"
+        "source": "html_backup",
+        "last_seen": "2026-06-09T14:08:34.304770",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "panda_express__10600_westport_road_001": {
         "name": "Panda Express (10600 Westport Road)",
         "price_level": 1,
         "slug": "panda-express-10600-westport-road",
         "price_bucket": "$",
-        "eta_text": "24 min",
-        "eta_minutes": 24.0,
-        "availability_text": "24 min",
+        "eta_text": "22 min",
+        "eta_minutes": 22.0,
+        "availability_text": "22 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -2344,18 +2508,19 @@
         ],
         "address": "10600 Westport Rd, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.302929",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "panera__10451_champion_farms_drive_001": {
         "name": "Panera (10451 Champion Farms Drive )",
-        "price_level": 2,
-        "source": "html_backup",
-        "last_seen": "2026-05-19T15:42:04.223317",
+        "price_level": 1,
+        "source": "getPaginatedStoresV1",
+        "last_seen": "2026-06-09T14:08:34.302929",
         "slug": "panera-10451-champion-farms-drive",
         "price_bucket": "$",
-        "eta_text": "24 min",
-        "availability_text": "24 min",
+        "eta_text": "22 min",
+        "availability_text": "22 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -2368,8 +2533,10 @@
             "Chicken"
         ],
         "address": "10451 Champion Farms Drive, Louisville, KY 40241",
-        "eta_minutes": 24.0,
-        "search_radius_miles": 15
+        "eta_minutes": 22.0,
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover",
+        "promotion_description": "Buy 1, Get 1 Free"
     },
     "papa_johns_pizza__3511_springhurst_commons_drive_001": {
         "name": "Papa Johns Pizza (3511 Springhurst Commons Drive)",
@@ -2395,9 +2562,10 @@
         ],
         "address": "3511 Springhurst Commons Drive, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "promotion_description": "Buy 1, Get 1 Free",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.291761",
+        "promotion_description": "Get $14 off of your order of $35 or more (before taxes and fees). Available for a limited time only.",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "papa_johns_pizza__6535_w__hwy_22_001": {
         "name": "Papa Johns Pizza (6535 W. Hwy 22)",
@@ -2423,18 +2591,19 @@
         ],
         "address": "6535 W. Hwy 22, Crestwood, KY 40014",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
+        "last_seen": "2026-06-09T14:08:34.292764",
         "promotion_description": "Buy 1, Get 1 Free",
-        "search_radius_miles": 15
+        "search_radius_miles": 15,
+        "market_zone": "Crestwood Core"
     },
     "penn_station__3707_chamberlain_lane_001": {
         "name": "Penn Station (3707 Chamberlain Lane)",
         "price_level": 1,
         "slug": "penn-station-3707-chamberlain-lane",
         "price_bucket": "$",
-        "eta_text": "25 min",
-        "eta_minutes": 25.0,
-        "availability_text": "25 min",
+        "eta_text": "23 min",
+        "eta_minutes": 23.0,
+        "availability_text": "23 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -2444,17 +2613,18 @@
         ],
         "address": "3707 Chamberlain Lane, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.302929",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "petsmart__springhurst_001": {
         "name": "PetSmart (Springhurst)",
         "price_level": 2,
         "slug": "petsmart-springhurst",
         "price_bucket": "$$",
-        "eta_text": "26 min",
-        "eta_minutes": 26.0,
-        "availability_text": "26 min",
+        "eta_text": "28 min",
+        "eta_minutes": 28.0,
+        "availability_text": "28 min",
         "promotion_active": true,
         "promotion_description": "Save on Select Items",
         "is_open": true,
@@ -2464,8 +2634,9 @@
         ],
         "address": "10308 Westport Rd, Louisville, KY 40241-2150",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "pizza_hut__3610_springhurst_blvd_001": {
         "name": "Pizza Hut (3610 Springhurst Blvd)",
@@ -2475,7 +2646,7 @@
         "eta_text": "27 min",
         "eta_minutes": 27.0,
         "availability_text": "27 min",
-        "promotion_active": false,
+        "promotion_active": true,
         "is_open": true,
         "categories": [
             "Pizza",
@@ -2484,8 +2655,10 @@
         ],
         "address": "3610 Springhurst Blvd, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.302929",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock",
+        "promotion_description": "Buy 1, Get 1 Free"
     },
     "pizzaville__2901_goose_creek_road_001": {
         "name": "Pizzaville (2901 Goose Creek Road)",
@@ -2505,17 +2678,18 @@
         ],
         "address": "2901 Goose Creek Road, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "popeyes__10601__fischer_park_dr_001": {
         "name": "Popeyes (10601, Fischer Park Dr)",
-        "price_level": 1,
+        "price_level": 2,
         "slug": "popeyes-10601-fischer-park-dr",
         "price_bucket": "$",
-        "eta_text": "13 min",
-        "eta_minutes": 13.0,
-        "availability_text": "13 min",
+        "eta_text": "Available in 2 min",
+        "eta_minutes": 2.0,
+        "availability_text": "Available in 2 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -2524,8 +2698,10 @@
             "Comfort Food"
         ],
         "address": "10601 Fischer Park Drive, Louisville, KY 40241",
-        "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T10:01:47.470172"
+        "source": "html_backup",
+        "last_seen": "2026-06-09T14:08:34.304770",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "potbelly_sandwich_works__paddock_001": {
         "name": "Potbelly Sandwich Works (Paddock)",
@@ -2535,25 +2711,27 @@
         "eta_text": "22 min",
         "eta_minutes": 22.0,
         "availability_text": "22 min",
-        "promotion_active": false,
+        "promotion_active": true,
         "is_open": true,
         "categories": [
             "Sandwich"
         ],
         "address": "4023 Summit Plaza Drive, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.302929",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock",
+        "promotion_description": "Free Item (Spend $25)"
     },
     "qdoba_mexican_eats__4059_summit_plaza_dr_001": {
         "name": "Qdoba Mexican Eats (4059 Summit Plaza Dr)",
-        "price_level": 1,
+        "price_level": 2,
         "rating": null,
         "slug": "qdoba-mexican-eats-4059-summit-plaza-dr",
         "price_bucket": "$",
-        "eta_text": "25 min",
-        "eta_minutes": 25.0,
-        "availability_text": "25 min",
+        "eta_text": "Available in 2 min",
+        "eta_minutes": 2.0,
+        "availability_text": "Available in 2 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -2564,17 +2742,19 @@
             "Group Friendly"
         ],
         "address": "4059 Summit Plaza Dr, Louisville, KY 40241",
-        "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T10:31:38.101046"
+        "source": "html_backup",
+        "last_seen": "2026-06-09T14:08:34.304770",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "quezadillas_and_bar_mexican_grill_001": {
         "name": "Quezadillas And Bar Mexican Grill",
         "price_level": 2,
         "slug": "quezadillas-and-bar-mexican-grill",
         "price_bucket": "",
-        "eta_text": "26 min",
-        "eta_minutes": 26.0,
-        "availability_text": "26 min",
+        "eta_text": "24 min",
+        "eta_minutes": 24.0,
+        "availability_text": "24 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -2584,17 +2764,18 @@
         ],
         "address": "2300 Terra Crossing Boulevard, 104, Louisville-Jefferson County, KY 40245",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.302929",
+        "search_radius_miles": 15,
+        "market_zone": "Terra Crossing"
     },
     "raising_cane_s_chicken_fingers__10490_westport_rd_001": {
         "name": "Raising Cane's Chicken Fingers (10490 Westport Rd)",
         "price_level": 2,
         "slug": "raising-canes-chicken-fingers-10490-westport-rd",
         "price_bucket": "$$",
-        "eta_text": "24 min",
-        "eta_minutes": 24.0,
-        "availability_text": "24 min",
+        "eta_text": "25 min",
+        "eta_minutes": 25.0,
+        "availability_text": "25 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -2606,17 +2787,18 @@
         ],
         "address": "10490 West Port Rd., Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.302929",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "sally_beauty__13401_shelbyville_rd__104_001": {
         "name": "Sally Beauty (13401 Shelbyville Rd #104)",
         "price_level": 2,
         "slug": "sally-beauty-13401-shelbyville-rd-#104",
         "price_bucket": "$$",
-        "eta_text": "45 min",
-        "eta_minutes": 45.0,
-        "availability_text": "45 min",
+        "eta_text": "33 min",
+        "eta_minutes": 33.0,
+        "availability_text": "33 min",
         "promotion_active": true,
         "promotion_description": "Save on Select Items",
         "is_open": true,
@@ -2627,17 +2809,18 @@
         ],
         "address": "13401 Shelbyville Rd #104, Louisville, KY 40233",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Middletown"
     },
     "schlotzsky_s_deli__10531_fischer_park_dr_001": {
         "name": "Schlotzsky's Deli (10531 Fischer Park Dr.)",
         "price_level": 1,
         "slug": "schlotzskys-deli-10531-fischer-park-dr",
         "price_bucket": "$",
-        "eta_text": "23 min",
-        "eta_minutes": 23.0,
-        "availability_text": "23 min",
+        "eta_text": "22 min",
+        "eta_minutes": 22.0,
+        "availability_text": "22 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -2649,17 +2832,18 @@
         ],
         "address": "10531 Fischer Park Dr., Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.302929",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "smoothie_king__10508_fischer_park_drive_001": {
         "name": "Smoothie King (10508 Fischer Park Drive)",
         "price_level": 2,
         "slug": "smoothie-king-10508-fischer-park-drive",
         "price_bucket": "$$",
-        "eta_text": "22 min",
-        "eta_minutes": 22.0,
-        "availability_text": "22 min",
+        "eta_text": "24 min",
+        "eta_minutes": 24.0,
+        "availability_text": "24 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -2669,19 +2853,20 @@
         ],
         "address": "10512 Fischer Park Drive, Louisville-Jefferson County, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.291761",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "sonic__3641_springhurst_blvd_001": {
         "name": "Sonic (3641 Springhurst Blvd)",
         "price_level": 1,
         "slug": "sonic-3641-springhurst-blvd",
         "price_bucket": "$",
-        "eta_text": "22 min",
-        "eta_minutes": 22.0,
-        "availability_text": "22 min",
+        "eta_text": "25 min",
+        "eta_minutes": 25.0,
+        "availability_text": "25 min",
         "promotion_active": true,
-        "promotion_description": "Get $6 off of your order of $20 or more (before taxes and fees). Available for a limited time only.",
+        "promotion_description": "Get $10 off of your order of $25 or more (before taxes and fees). Available for a limited time only.",
         "is_open": true,
         "categories": [
             "American",
@@ -2696,19 +2881,20 @@
         ],
         "address": "3641 Springhurst Blvd, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.291761",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "speedway__10009_brownsboro_rd_001": {
         "name": "Speedway (10009 Brownsboro Rd)",
         "price_level": 1,
         "slug": "speedway-10009-brownsboro-rd",
         "price_bucket": "$",
-        "eta_text": "21 min",
-        "eta_minutes": 21.0,
-        "availability_text": "21 min",
+        "eta_text": "22 min",
+        "eta_minutes": 22.0,
+        "availability_text": "22 min",
         "promotion_active": true,
-        "promotion_description": "Save on Select Items",
+        "promotion_description": "Get $5 off of your order of $25 or more (before taxes and fees). Available for a limited time only.",
         "is_open": true,
         "categories": [
             "Convenience",
@@ -2719,19 +2905,20 @@
         ],
         "address": "10009 Brownsboro Rd, Louisville, KY 40241-1101",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "speedway__2400_terra_crossing_blvd_001": {
         "name": "Speedway (2400 Terra Crossing Blvd)",
         "price_level": 1,
         "slug": "speedway-2400-terra-crossing-blvd",
         "price_bucket": "$",
-        "eta_text": "24 min",
-        "eta_minutes": 24.0,
-        "availability_text": "24 min",
+        "eta_text": "18 min",
+        "eta_minutes": 18.0,
+        "availability_text": "18 min",
         "promotion_active": true,
-        "promotion_description": "Save on Select Items",
+        "promotion_description": "Get $5 off of your order of $25 or more (before taxes and fees). Available for a limited time only.",
         "is_open": true,
         "categories": [
             "Convenience",
@@ -2743,19 +2930,20 @@
         ],
         "address": "2400 Terra Crossing Blvd, Louisville, KY 40245-4949",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Terra Crossing"
     },
     "speedway__9500_brownsboro_road_001": {
         "name": "Speedway (9500 Brownsboro Road)",
         "price_level": 1,
         "slug": "speedway-9500-brownsboro-road",
         "price_bucket": "$",
-        "eta_text": "22 min",
-        "eta_minutes": 22.0,
-        "availability_text": "22 min",
+        "eta_text": "24 min",
+        "eta_minutes": 24.0,
+        "availability_text": "24 min",
         "promotion_active": true,
-        "promotion_description": "Save on Select Items",
+        "promotion_description": "Get $5 off of your order of $25 or more (before taxes and fees). Available for a limited time only.",
         "is_open": true,
         "categories": [
             "Convenience",
@@ -2766,8 +2954,9 @@
         ],
         "address": "9500 Brownsboro Road, Louisville, KY 40241-1120",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.291761",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "starbucks__10240_westport_road_001": {
         "name": "Starbucks (10240 Westport Road)",
@@ -2787,19 +2976,21 @@
         ],
         "address": "10240 Westport Rd, Louisville, KY 40241-2148",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro",
+        "eta_minutes": 2.0
     },
     "starbucks__7203_hwy_329_001": {
         "name": "Starbucks (7203 Hwy 329)",
         "price_level": 1,
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
+        "last_seen": "2026-06-09T14:08:34.302929",
         "slug": "starbucks-7203-hwy-329",
         "price_bucket": "$",
-        "eta_text": "13 min",
-        "eta_minutes": 13.0,
-        "availability_text": "13 min",
+        "eta_text": "11 min",
+        "eta_minutes": 11.0,
+        "availability_text": "11 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -2807,16 +2998,17 @@
             "Cafe"
         ],
         "address": "7203 Hwy 329, Crestwood, KY 40014",
-        "search_radius_miles": 15
+        "search_radius_miles": 15,
+        "market_zone": "Crestwood Core"
     },
     "starbucks__hwy_393___commerce_001": {
         "name": "Starbucks (Hwy 393 & Commerce)",
         "price_level": 1,
         "slug": "starbucks-hwy-393-&-commerce",
         "price_bucket": "$",
-        "eta_text": "19 min",
-        "eta_minutes": 19.0,
-        "availability_text": "19 min",
+        "eta_text": "17 min",
+        "eta_minutes": 17.0,
+        "availability_text": "17 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -2825,18 +3017,19 @@
         ],
         "address": "3820 Commerce Pkwy, La Grange, KY 40031",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.291761",
+        "search_radius_miles": 15,
+        "market_zone": "La Grange / Buckner"
     },
     "starbucks__lagrange_and_factory_001": {
         "name": "Starbucks (LaGrange and Factory)",
         "price_level": 2,
         "source": "html_backup",
-        "last_seen": "2026-05-19T15:42:04.223317",
+        "last_seen": "2026-06-09T14:08:34.304770",
         "slug": "starbucks-lagrange-and-factory",
         "price_bucket": "$",
-        "eta_text": "Available Tuesday 5:00 AM",
-        "availability_text": "Available Tuesday 5:00 AM",
+        "eta_text": "17 min",
+        "availability_text": "17 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -2846,17 +3039,19 @@
             "Bakery"
         ],
         "address": "12911 Factory Lane, Louisville, KY 40245",
-        "search_radius_miles": 15
+        "search_radius_miles": 15,
+        "market_zone": "La Grange / Buckner",
+        "eta_minutes": 17.0
     },
     "starbucks__paddock_shops_001": {
         "name": "Starbucks (Paddock Shops)",
         "price_level": 2,
         "source": "html_backup",
-        "last_seen": "2026-05-19T15:42:04.223317",
+        "last_seen": "2026-06-09T14:08:34.304770",
         "slug": "starbucks-paddock-shops",
         "price_bucket": "$",
-        "eta_text": "Available Tuesday 5:00 AM",
-        "availability_text": "Available Tuesday 5:00 AM",
+        "eta_text": "22 min",
+        "availability_text": "22 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -2866,7 +3061,9 @@
             "Bakery"
         ],
         "address": "4001 Summit Plaza Dr Ste G15, Louisville, KY 40241",
-        "search_radius_miles": 15
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock",
+        "eta_minutes": 22.0
     },
     "steak__n_shake__10721_fischer_park_drive_001": {
         "name": "Steak 'N Shake (10721 Fischer Park Drive)",
@@ -2883,13 +3080,64 @@
         ],
         "address": "10721 Fischer Park Drive, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.291761",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "subway__12907_factory_ln_001": {
         "name": "Subway (12907 Factory Ln)",
         "price_level": 1,
         "slug": "subway-12907-factory-ln",
+        "price_bucket": "$",
+        "eta_text": "16 min",
+        "eta_minutes": 16.0,
+        "availability_text": "16 min",
+        "promotion_active": false,
+        "is_open": true,
+        "categories": [
+            "Fast Food",
+            "Sandwich",
+            "American",
+            "Salads",
+            "Healthy",
+            "Fast Food"
+        ],
+        "address": "12907 Factory Ln, Louisville, KY 40245",
+        "source": "getPaginatedStoresV1",
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover",
+        "promotion_description": "Save on Select Items"
+    },
+    "subway__12981_shelbyville_rd_001": {
+        "name": "Subway (12981 Shelbyville Rd)",
+        "price_level": 1,
+        "slug": "subway-12981-shelbyville-rd",
+        "price_bucket": "$",
+        "eta_text": "27 min",
+        "eta_minutes": 27.0,
+        "availability_text": "27 min",
+        "promotion_active": true,
+        "is_open": true,
+        "categories": [
+            "Fast Food",
+            "Sandwich",
+            "American",
+            "Salads",
+            "Healthy",
+            "Fast Food"
+        ],
+        "address": "12981 Shelbyville Rd, Middletown, KY 40243",
+        "source": "getPaginatedStoresV1",
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Middletown",
+        "promotion_description": "Buy 1, Get 1 Free"
+    },
+    "subway__2300_terra_crossing_blvd_001": {
+        "name": "Subway (2300 Terra Crossing Blvd)",
+        "price_level": 1,
+        "slug": "subway-2300-terra-crossing-blvd",
         "price_bucket": "$",
         "eta_text": "18 min",
         "eta_minutes": 18.0,
@@ -2904,65 +3152,21 @@
             "Healthy",
             "Fast Food"
         ],
-        "address": "12907 Factory Ln, Louisville, KY 40245",
-        "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
-    },
-    "subway__12981_shelbyville_rd_001": {
-        "name": "Subway (12981 Shelbyville Rd)",
-        "price_level": 1,
-        "slug": "subway-12981-shelbyville-rd",
-        "price_bucket": "$",
-        "eta_text": "29 min",
-        "eta_minutes": 29.0,
-        "availability_text": "29 min",
-        "promotion_active": false,
-        "is_open": true,
-        "categories": [
-            "Fast Food",
-            "Sandwich",
-            "American",
-            "Salads",
-            "Healthy",
-            "Fast Food"
-        ],
-        "address": "12981 Shelbyville Rd, Middletown, KY 40243",
-        "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
-    },
-    "subway__2300_terra_crossing_blvd_001": {
-        "name": "Subway (2300 Terra Crossing Blvd)",
-        "price_level": 1,
-        "slug": "subway-2300-terra-crossing-blvd",
-        "price_bucket": "$",
-        "eta_text": "23 min",
-        "eta_minutes": 23.0,
-        "availability_text": "23 min",
-        "promotion_active": false,
-        "is_open": true,
-        "categories": [
-            "Fast Food",
-            "Sandwich",
-            "American",
-            "Salads",
-            "Healthy",
-            "Fast Food"
-        ],
         "address": "2300 Terra Crossing Blvd., Louisville, KY 40245",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Terra Crossing",
+        "promotion_description": "Save on Select Items"
     },
     "subway__4734_w__highway_146_001": {
         "name": "Subway (4734 W. Highway 146)",
         "price_level": 1,
         "slug": "subway-4734-w-highway-146",
         "price_bucket": "$",
-        "eta_text": "17 min",
-        "eta_minutes": 17.0,
-        "availability_text": "17 min",
+        "eta_text": "13 min",
+        "eta_minutes": 13.0,
+        "availability_text": "13 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -2975,17 +3179,19 @@
         ],
         "address": "4734 W. Highway 146, Buckner, KY 40010",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "La Grange / Buckner",
+        "promotion_description": "Save on Select Items"
     },
     "subway__6002_pleasant_colony_court__ste_2_001": {
         "name": "Subway (6002 Pleasant Colony Court, Ste#2)",
         "price_level": 1,
         "slug": "subway-6002-pleasant-colony-court-ste#2",
         "price_bucket": "$",
-        "eta_text": "11 min",
-        "eta_minutes": 11.0,
-        "availability_text": "11 min",
+        "eta_text": "10 min",
+        "eta_minutes": 10.0,
+        "availability_text": "10 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -2998,8 +3204,10 @@
         ],
         "address": "6002 Pleasant Colony Court, Ste#2, Crestwood, KY 40014",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Crestwood Core",
+        "promotion_description": "Save on Select Items"
     },
     "subway__9470_brownsboro_road_001": {
         "name": "Subway (9470 Brownsboro Road)",
@@ -3021,17 +3229,19 @@
         ],
         "address": "9470 Brownsboro Road, Louisville-Jefferson County, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro",
+        "promotion_description": "Save on Select Items"
     },
     "subway__9475_westport_rd_001": {
         "name": "Subway (9475 Westport Rd)",
         "price_level": 1,
         "slug": "subway-9475-westport-rd",
         "price_bucket": "$",
-        "eta_text": "23 min",
-        "eta_minutes": 23.0,
-        "availability_text": "23 min",
+        "eta_text": "27 min",
+        "eta_minutes": 27.0,
+        "availability_text": "27 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -3044,18 +3254,20 @@
         ],
         "address": "9475 Westport Rd, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro",
+        "promotion_description": "Save on Select Items"
     },
     "sushi_master_001": {
         "name": "Sushi Master",
-        "price_level": 1,
+        "price_level": 2,
         "rating": null,
         "slug": "sushi-master",
         "price_bucket": "$",
-        "eta_text": "Available in 24 min",
-        "eta_minutes": 24.0,
-        "availability_text": "Available in 24 min",
+        "eta_text": "Available Friday 11:30 AM",
+        "eta_minutes": 2.0,
+        "availability_text": "Available Friday 11:30 AM",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -3064,9 +3276,10 @@
             "Japanese"
         ],
         "address": "9415 Norton Commons Blvd, Prospect, KY 40059",
-        "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "source": "html_backup",
+        "last_seen": "2026-06-09T14:08:34.304770",
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover"
     },
     "sushi_from_kroger_by_zenshi_001": {
         "name": "Sushi from Kroger by Zenshi",
@@ -3074,7 +3287,7 @@
         "slug": "sushi-from-kroger-by-zenshi",
         "price_bucket": "",
         "eta_text": "Currently unavailable",
-        "eta_minutes": 25.0,
+        "eta_minutes": 32.0,
         "availability_text": "Currently unavailable",
         "promotion_active": true,
         "promotion_description": "Get $2 off of your order of $10 or more (before taxes and fees). Available for a limited time only.",
@@ -3082,19 +3295,20 @@
         "categories": [
             "Specialty Foods"
         ],
-        "address": "12450 Lagrange Rd., Louisville, KY 40245",
+        "address": "2835 S Hwy 393, LaGrange, KY 40031",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.294461",
+        "search_radius_miles": 15,
+        "market_zone": "La Grange / Buckner"
     },
     "taco_bell__10541_fischer_park_drive_001": {
         "name": "Taco Bell (10541 Fischer Park Drive)",
         "price_level": 2,
         "slug": "taco-bell-10541-fischer-park-drive",
         "price_bucket": "$",
-        "eta_text": "Available in 7 min",
-        "eta_minutes": 7.0,
-        "availability_text": "Available in 7 min",
+        "eta_text": "Available in 3 min",
+        "eta_minutes": 3.0,
+        "availability_text": "Available in 3 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -3106,17 +3320,18 @@
         ],
         "address": "10541 Fischer Park Drive, Louisville, KY 40241",
         "source": "html_backup",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.304770",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "taco_bell__12434_lagrange_rd_001": {
         "name": "Taco Bell (12434 LaGrange Rd.)",
         "price_level": 1,
         "slug": "taco-bell-12434-lagrange-rd",
         "price_bucket": "$",
-        "eta_text": "17 min",
-        "eta_minutes": 17.0,
-        "availability_text": "17 min",
+        "eta_text": "15 min",
+        "eta_minutes": 15.0,
+        "availability_text": "15 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -3128,17 +3343,19 @@
         ],
         "address": "12434 Lagrange Rd., Louisville, KY 40245",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.302929",
+        "search_radius_miles": 15,
+        "market_zone": "La Grange / Buckner",
+        "promotion_description": "Free Item (Spend $22)"
     },
     "taco_bell__6521_veterans_memorial_pkwy_001": {
         "name": "Taco Bell (6521 Veterans Memorial Pkwy)",
         "price_level": 1,
         "slug": "taco-bell-6521-veterans-memorial-pkwy",
         "price_bucket": "$",
-        "eta_text": "10 min",
-        "eta_minutes": 10.0,
-        "availability_text": "10 min",
+        "eta_text": "11 min",
+        "eta_minutes": 11.0,
+        "availability_text": "11 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -3150,17 +3367,19 @@
         ],
         "address": "6521 Veterans Memorial Pkwy, Crestwood, KY 40014",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Crestwood Core",
+        "promotion_description": "Free Item (Spend $22)"
     },
     "taco_n_madres_001": {
         "name": "Taco N Madres",
         "price_level": 2,
         "slug": "taco-n-madres",
         "price_bucket": "$$",
-        "eta_text": "33 min",
-        "eta_minutes": 33.0,
-        "availability_text": "33 min",
+        "eta_text": "Currently unavailable",
+        "eta_minutes": 2.0,
+        "availability_text": "Currently unavailable",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -3170,17 +3389,18 @@
         ],
         "address": "2840 Goose Creek Road, Louisville, KY 40242",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.294461",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "taj_palace_indian_restaurant_001": {
         "name": "Taj Palace Indian Restaurant",
         "price_level": 1,
         "slug": "taj-palace-indian-restaurant",
         "price_bucket": "$",
-        "eta_text": "Available in 24 min",
-        "eta_minutes": 24.0,
-        "availability_text": "Available in 24 min",
+        "eta_text": "Available at 4:00 PM",
+        "eta_minutes": 30.0,
+        "availability_text": "Available at 4:00 PM",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -3190,17 +3410,18 @@
         ],
         "address": "2929 Goose Creek Rd, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.301925",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "tandoori_fusion_001": {
         "name": "Tandoori Fusion",
-        "price_level": 1,
+        "price_level": 2,
         "rating": null,
         "slug": "tandoori-fusion",
         "price_bucket": "$",
         "eta_text": "Available at 5:00 PM",
-        "eta_minutes": 25.0,
+        "eta_minutes": 2.0,
         "availability_text": "Available at 5:00 PM",
         "promotion_active": false,
         "is_open": true,
@@ -3210,9 +3431,10 @@
             "Group Friendly"
         ],
         "address": "4600 Chamberlain Ln, Louisville, KY 40241",
-        "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "source": "html_backup",
+        "last_seen": "2026-06-09T14:08:34.304770",
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover"
     },
     "target__middletown_001": {
         "name": "Target (Middletown)",
@@ -3220,7 +3442,7 @@
         "slug": "target-middletown",
         "price_bucket": "$$",
         "eta_text": "",
-        "eta_minutes": 10.0,
+        "eta_minutes": 17.0,
         "availability_text": "",
         "promotion_active": true,
         "promotion_description": "Save on Select Items",
@@ -3239,17 +3461,18 @@
         ],
         "address": "12975 Shelbyville Rd, Middletown, KY 40243",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Middletown"
     },
     "target__springhurst_001": {
         "name": "Target (Springhurst)",
         "price_level": 2,
         "slug": "target-springhurst",
         "price_bucket": "$$",
-        "eta_text": "4:20PM",
-        "eta_minutes": 10.0,
-        "availability_text": "4:20PM",
+        "eta_text": "2:44PM",
+        "eta_minutes": 17.0,
+        "availability_text": "2:44PM",
         "promotion_active": true,
         "promotion_description": "Save on Select Items",
         "is_open": true,
@@ -3267,17 +3490,18 @@
         ],
         "address": "4101 Towne Center Dr. Louisville Ky, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "the_fresh_market__louisville_001": {
         "name": "The Fresh Market (Louisville)",
         "price_level": 2,
         "slug": "the-fresh-market-louisville",
         "price_bucket": "",
-        "eta_text": "4:23PM",
-        "eta_minutes": 10.0,
-        "availability_text": "4:23PM",
+        "eta_text": "2:47PM",
+        "eta_minutes": 17.0,
+        "availability_text": "2:47PM",
         "promotion_active": true,
         "promotion_description": "Save on Select Items",
         "is_open": true,
@@ -3294,17 +3518,18 @@
         ],
         "address": "4100 Summit Plaza Drive, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "the_home_depot__10301_westport_rd_001": {
         "name": "The Home Depot (10301 Westport Rd)",
         "price_level": 2,
         "slug": "the-home-depot-10301-westport-rd",
         "price_bucket": "$$",
-        "eta_text": "35 min",
-        "eta_minutes": 35.0,
-        "availability_text": "35 min",
+        "eta_text": "39 min",
+        "eta_minutes": 39.0,
+        "availability_text": "39 min",
         "promotion_active": true,
         "promotion_description": "Save on Select Items",
         "is_open": true,
@@ -3315,8 +3540,9 @@
         ],
         "address": "10301 Westport Rd, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "the_shake_bar__fischer_park_dr_001": {
         "name": "The Shake Bar (Fischer Park Dr)",
@@ -3324,7 +3550,7 @@
         "slug": "the-shake-bar-fischer-park-dr",
         "price_bucket": "$$",
         "eta_text": "",
-        "eta_minutes": 29.0,
+        "eta_minutes": 17.0,
         "availability_text": "",
         "promotion_active": false,
         "is_open": true,
@@ -3337,8 +3563,9 @@
         ],
         "address": "10721 Fischer Park Drive, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "the_village_anchor_001": {
         "name": "The Village Anchor",
@@ -3352,17 +3579,18 @@
         "categories": [],
         "address": "11507 Park Road, Louisville, KY 40223",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.295575",
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover"
     },
     "total_wine___more__paddock_shops_001": {
         "name": "Total Wine & More (Paddock Shops)",
         "price_level": 2,
         "slug": "total-wine-&-more-paddock-shops",
         "price_bucket": "$$",
-        "eta_text": "27 min",
-        "eta_minutes": 27.0,
-        "availability_text": "27 min",
+        "eta_text": "34 min",
+        "eta_minutes": 34.0,
+        "availability_text": "34 min",
         "promotion_active": true,
         "promotion_description": "Save on Select Items",
         "is_open": true,
@@ -3375,14 +3603,15 @@
         ],
         "address": "4320 Summit Plaza Drive Ste 5, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.302929",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "tropical_smoothie_cafe__4114_summit_plaza_dr_001": {
         "name": "Tropical Smoothie Cafe (4114 Summit Plaza Dr)",
         "price_level": 1,
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
+        "last_seen": "2026-06-09T14:08:34.302929",
         "slug": "tropical-smoothie-cafe-4114-summit-plaza-dr",
         "price_bucket": "$",
         "eta_text": "22 min",
@@ -3402,29 +3631,30 @@
             "Family Friendly"
         ],
         "address": "4114 Summit Plaza Drive, Louisville, KY 40241",
-        "search_radius_miles": 15
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "ulta_beauty__summit_plaza_drive_001": {
         "name": "Ulta Beauty (Summit Plaza Drive)",
         "price_level": 2,
         "slug": "ulta-beauty-summit-plaza-drive",
         "price_bucket": "$$",
-        "eta_text": "35 min",
-        "eta_minutes": 35.0,
-        "availability_text": "35 min",
+        "eta_text": "40 min",
+        "eta_minutes": 40.0,
+        "availability_text": "40 min",
         "promotion_active": true,
         "promotion_description": "Save on Select Items",
         "is_open": true,
         "categories": [
-            "Healthy",
             "Beauty Supply",
             "Personal Care",
             "Retail"
         ],
         "address": "4292 Summit Plaza Drive, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     },
     "veggie_mania_001": {
         "name": "Veggie Mania",
@@ -3443,8 +3673,9 @@
         ],
         "address": "3741 Pamela Rae Drive, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.295575",
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover"
     },
     "veggie_wonderland_001": {
         "name": "Veggie Wonderland",
@@ -3466,8 +3697,9 @@
         ],
         "address": "3741 Pamela Rae Drive, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.295061",
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover"
     },
     "victor_liquor_store_001": {
         "name": "Victor Liquor Store",
@@ -3485,19 +3717,20 @@
         ],
         "address": "4101 Ky-146, La Grange, KY 40031",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "eta_minutes": 6.0,
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.294461",
+        "eta_minutes": 1.0,
+        "search_radius_miles": 15,
+        "market_zone": "La Grange / Buckner"
     },
     "vintage_wine___spirits_001": {
         "name": "Vintage Wine & Spirits",
         "price_level": 2,
         "slug": "vintage-wine-&-spirits",
         "price_bucket": "",
-        "eta_text": "13 min",
-        "eta_minutes": 13.0,
-        "availability_text": "13 min",
-        "promotion_active": false,
+        "eta_text": "12 min",
+        "eta_minutes": 12.0,
+        "availability_text": "12 min",
+        "promotion_active": true,
         "is_open": true,
         "categories": [
             "Liquor Stores",
@@ -3506,17 +3739,19 @@
         ],
         "address": "7600 East Orchard Grass Boulevard, Orchard Grass Hills, KY 40014",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Crestwood Core",
+        "promotion_description": "Save on Select Items"
     },
     "waldo_s_chicken___beer__prospect_001": {
         "name": "Waldo\u2019s Chicken & Beer (Prospect)",
         "price_level": 1,
         "slug": "waldos-chicken-&-beer-prospect",
         "price_bucket": "$",
-        "eta_text": "23 min",
-        "eta_minutes": 23.0,
-        "availability_text": "23 min",
+        "eta_text": "21 min",
+        "eta_minutes": 21.0,
+        "availability_text": "21 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -3528,26 +3763,26 @@
         ],
         "address": "10700 Meeting St., Prospect, KY 40059",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Prospect / Norton Commons"
     },
     "walgreens__9702_westport_rd_001": {
         "name": "Walgreens (9702 Westport Rd)",
         "price_level": 1,
         "slug": "walgreens-9702-westport-rd",
         "price_bucket": "$",
-        "eta_text": "36 min",
-        "eta_minutes": 36.0,
-        "availability_text": "36 min",
+        "eta_text": "37 min",
+        "eta_minutes": 37.0,
+        "availability_text": "37 min",
         "promotion_active": true,
-        "promotion_description": "Take 25% off your subtotal with a maximum discount of $15. Discount does not apply to taxes and fees. Cannot be combined with other promotions.",
+        "promotion_description": "Save on Select Items",
         "is_open": true,
         "categories": [
             "Pharmacy",
             "Baby",
             "Convenience",
             "Pet Supplies",
-            "Alcohol",
             "Electronics",
             "Beauty Supply",
             "Retail",
@@ -3556,26 +3791,26 @@
         ],
         "address": "9702 Westport Rd, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "walgreens__9801_brownsboro_rd_001": {
         "name": "Walgreens (9801 Brownsboro Rd)",
         "price_level": 1,
         "slug": "walgreens-9801-brownsboro-rd",
         "price_bucket": "$",
-        "eta_text": "30 min",
-        "eta_minutes": 30.0,
-        "availability_text": "30 min",
+        "eta_text": "31 min",
+        "eta_minutes": 31.0,
+        "availability_text": "31 min",
         "promotion_active": true,
-        "promotion_description": "Take 25% off your subtotal with a maximum discount of $15. Discount does not apply to taxes and fees. Cannot be combined with other promotions.",
+        "promotion_description": "Save on Select Items",
         "is_open": true,
         "categories": [
             "Pharmacy",
             "Baby",
             "Convenience",
             "Pet Supplies",
-            "Alcohol",
             "Electronics",
             "Beauty Supply",
             "Retail",
@@ -3584,8 +3819,9 @@
         ],
         "address": "9801 Brownsboro Rd, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "watch_hill_proper_001": {
         "name": "Watch Hill Proper",
@@ -3599,8 +3835,9 @@
         "categories": [],
         "address": "11201 River Beauty Loop, Prospect, KY 40059",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.295575",
+        "search_radius_miles": 15,
+        "market_zone": "Prospect / Norton Commons"
     },
     "wendy_s___10741_fischer_park_drive_001": {
         "name": "Wendy's  (10741 FISCHER PARK DRIVE)",
@@ -3610,7 +3847,7 @@
         "eta_text": "25 min",
         "eta_minutes": 25.0,
         "availability_text": "25 min",
-        "promotion_active": false,
+        "promotion_active": true,
         "is_open": true,
         "categories": [
             "American",
@@ -3619,24 +3856,27 @@
         ],
         "address": "10741 Fischer Park Drive, LOUISVILLE, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.302929",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro",
+        "promotion_description": "Buy 1, Get 1 Free"
     },
     "wendy_s__10741_fischer_park_drive_001": {
         "name": "Wendy's (10741 FISCHER PARK DRIVE)",
         "price_level": 2,
         "source": "html_backup",
-        "last_seen": "2026-05-19T15:42:04.223317",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.304770",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "which_wich_superior_sandwiches__9850_louisville_001": {
         "name": "Which Wich Superior Sandwiches (9850 Louisville)",
         "price_level": 1,
         "slug": "which-wich-superior-sandwiches-9850-louisville",
         "price_bucket": "$",
-        "eta_text": "24 min",
-        "eta_minutes": 24.0,
-        "availability_text": "24 min",
+        "eta_text": "25 min",
+        "eta_minutes": 25.0,
+        "availability_text": "25 min",
         "promotion_active": true,
         "is_open": true,
         "categories": [
@@ -3645,20 +3885,21 @@
         ],
         "address": "9850 Von Allmen Court , Suite 103, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "promotion_description": "Buy 1, get a free item",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "promotion_description": "Take 25% off your subtotal with a maximum discount of $12. Discount does not apply to taxes and fees. Cannot be combined with other promotions.",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "white_castle__9493_westport_rd_001": {
         "name": "White Castle (9493 Westport Rd.)",
         "price_level": 1,
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
+        "last_seen": "2026-06-09T14:08:34.302929",
         "slug": "white-castle-9493-westport-rd",
         "price_bucket": "$",
-        "eta_text": "26 min",
-        "eta_minutes": 26.0,
-        "availability_text": "26 min",
+        "eta_text": "30 min",
+        "eta_minutes": 30.0,
+        "availability_text": "30 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -3667,16 +3908,17 @@
             "Fast Food"
         ],
         "address": "9493 Westport Rd., Louisville, KY 40241",
-        "search_radius_miles": 15
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "wild_burger_by_buffalo_wild_wings__10206_westport_rd_001": {
         "name": "Wild Burger by Buffalo Wild Wings (10206 Westport Rd)",
         "price_level": 2,
         "slug": "wild-burger-by-buffalo-wild-wings-10206-westport-rd",
         "price_bucket": "$$",
-        "eta_text": "30 min",
-        "eta_minutes": 30.0,
-        "availability_text": "30 min",
+        "eta_text": "31 min",
+        "eta_minutes": 31.0,
+        "availability_text": "31 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -3685,18 +3927,19 @@
         ],
         "address": "10206 Westport Rd, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.292764",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "wingstop__12910_factory_ln__102_001": {
         "name": "Wingstop (12910 Factory Ln, 102)",
         "price_level": 2,
         "slug": "wingstop-12910-factory-ln-102",
         "price_bucket": "$$",
-        "eta_text": "21 min",
-        "eta_minutes": 21.0,
-        "availability_text": "21 min",
-        "promotion_active": false,
+        "eta_text": "20 min",
+        "eta_minutes": 20.0,
+        "availability_text": "20 min",
+        "promotion_active": true,
         "is_open": true,
         "categories": [
             "Chicken",
@@ -3707,18 +3950,20 @@
         ],
         "address": "12910 Factory Ln, 102, Louisville, KY 40245-2048",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.291761",
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover",
+        "promotion_description": "Free Item (Spend $25)"
     },
     "wingstop__9401_westport_rd__101_001": {
         "name": "Wingstop (9401 Westport Rd #101)",
         "price_level": 2,
         "slug": "wingstop-9401-westport-rd-#101",
         "price_bucket": "$$",
-        "eta_text": "26 min",
-        "eta_minutes": 26.0,
-        "availability_text": "26 min",
-        "promotion_active": false,
+        "eta_text": "33 min",
+        "eta_minutes": 33.0,
+        "availability_text": "33 min",
+        "promotion_active": true,
         "is_open": true,
         "categories": [
             "Wings",
@@ -3729,19 +3974,21 @@
         ],
         "address": "9401 Westport Rd #101, LOUISVILLE, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.302929",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro",
+        "promotion_description": "Free Item (Spend $25)"
     },
     "world_of_beer__9850_von_allmen_ct_001": {
         "name": "World of Beer (9850 Von Allmen Ct)",
-        "price_level": 1,
+        "price_level": 2,
         "rating": null,
         "slug": "world-of-beer-9850-von-allmen-ct",
         "price_bucket": "$",
-        "eta_text": "29 min",
-        "eta_minutes": 29.0,
-        "availability_text": "29 min",
-        "promotion_active": true,
+        "eta_text": "Available in 2 min",
+        "eta_minutes": 2.0,
+        "availability_text": "Available in 2 min",
+        "promotion_active": false,
         "is_open": true,
         "categories": [
             "American",
@@ -3750,9 +3997,11 @@
             "American"
         ],
         "address": "9850 Von Allmen Court, STE 108, Louisville, KY 40241",
-        "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T11:01:38.307336",
-        "promotion_description": "Buy 1, Get 1 Free"
+        "source": "html_backup",
+        "last_seen": "2026-06-09T14:08:34.304770",
+        "promotion_description": "Buy 1, Get 1 Free",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "zaxbys__13811_terra_view_trail_001": {
         "name": "Zaxbys (13811 Terra View Trail)",
@@ -3762,8 +4011,8 @@
         "eta_text": "21 min",
         "eta_minutes": 21.0,
         "availability_text": "21 min",
-        "promotion_active": false,
-        "promotion_description": "Get $3 off of your order of $20 or more (before taxes and fees). Available for a limited time only.",
+        "promotion_active": true,
+        "promotion_description": "Buy 1, Get 1 Free",
         "is_open": true,
         "categories": [
             "Wings",
@@ -3774,19 +4023,20 @@
         ],
         "address": "13811 Terra View Trail, Louisville, KY 40245",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.302929",
+        "search_radius_miles": 15,
+        "market_zone": "Regional Spillover"
     },
     "zaxbys__9903_brownsboro_rd_001": {
         "name": "Zaxbys (9903 Brownsboro Rd)",
         "price_level": 2,
         "slug": "zaxbys-9903-brownsboro-rd",
         "price_bucket": "$$",
-        "eta_text": "21 min",
-        "eta_minutes": 21.0,
-        "availability_text": "21 min",
-        "promotion_active": false,
-        "promotion_description": "Get $3 off of your order of $20 or more (before taxes and fees). Available for a limited time only.",
+        "eta_text": "22 min",
+        "eta_minutes": 22.0,
+        "availability_text": "22 min",
+        "promotion_active": true,
+        "promotion_description": "Buy 1, Get 1 Free",
         "is_open": true,
         "categories": [
             "American",
@@ -3795,17 +4045,18 @@
         ],
         "address": "9903 Brownsboro Rd, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.302929",
+        "search_radius_miles": 15,
+        "market_zone": "Westport / Brownsboro"
     },
     "zoe_s_kitchen__4126_summit_plaza_drive_001": {
         "name": "Zoe's Kitchen (4126 Summit Plaza Drive)",
         "price_level": 2,
         "slug": "zoes-kitchen-4126-summit-plaza-drive",
         "price_bucket": "$$",
-        "eta_text": "45 min",
-        "eta_minutes": 45.0,
-        "availability_text": "45 min",
+        "eta_text": "43 min",
+        "eta_minutes": 43.0,
+        "availability_text": "43 min",
         "promotion_active": false,
         "is_open": true,
         "categories": [
@@ -3815,7 +4066,8 @@
         ],
         "address": "4126 Summit Plaza Dr, Louisville, KY 40241",
         "source": "getPaginatedStoresV1",
-        "last_seen": "2026-05-19T15:42:04.221789",
-        "search_radius_miles": 15
+        "last_seen": "2026-06-09T14:08:34.302929",
+        "search_radius_miles": 15,
+        "market_zone": "Springhurst / Paddock"
     }
 }

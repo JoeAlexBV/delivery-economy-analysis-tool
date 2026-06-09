@@ -15,6 +15,7 @@ class CrestwoodScraper:
         self.search_radius_miles = config.get('search_radius_miles', 10)
         self.single_origin_coverage_miles = config.get('single_origin_coverage_miles', 10)
         self.spillover_search_depth = config.get('spillover_search_depth_scrolls', max(3, min(self.search_depth, 5)))
+        self.platform_code = "UE"
         self.captured_data = []
 
     def _offset_coords(self, coords, north_miles=0, east_miles=0):
@@ -85,7 +86,11 @@ class CrestwoodScraper:
                 if any(t in ct for t in ["json", "javascript", "text/plain", "octet-stream"]):
                     data = await response.json()
                     if data and self._contains_store_data(data):
-                        self.captured_data.append({"url": response.url, "data": data})
+                        self.captured_data.append({
+                            "url": response.url,
+                            "platform_code": self.platform_code,
+                            "data": data,
+                        })
                         print(f"[SUCCESS] Captured data from: {url[:60]}...")
             except Exception:
                 # Some octet-streams aren't JSON, skip silently
@@ -152,6 +157,7 @@ class CrestwoodScraper:
                             if html_names:
                                 self.captured_data.append({
                                     "url": f"HTML_BACKUP_{origin['label'].upper()}_PAGE_{i+1}",
+                                    "platform_code": self.platform_code,
                                     "data": {"names": html_names, "origin": origin},
                                 })
                                 print(f" [PAGE {i+1}] Found {len(html_names)} stores in HTML.")
@@ -209,4 +215,113 @@ class CrestwoodScraper:
                 return self.captured_data
         except Exception as e:
             print(f"[!] Scraper Error: {e}")
+            return []
+
+
+class DoorDashScraper:
+    def __init__(self, config_path='config.json'):
+        with open(config_path, 'r') as f:
+            full_config = json.load(f)
+
+        config = full_config.get('doordash_scraper', {})
+        fallback_config = full_config.get('scraper', {})
+        self.platform_code = "DD"
+        self.base_url = config.get('base_url', 'https://www.doordash.com/food-delivery/crestwood-ky-restaurants/')
+        self.coords = config.get('coords', fallback_config.get('coords', {"latitude": 38.3306, "longitude": -85.4852}))
+        self.search_depth = config.get('search_depth_scrolls', max(3, min(fallback_config.get('search_depth_scrolls', 5), 6)))
+        self.headless = config.get('headless', fallback_config.get('headless', True))
+        self.captured_data = []
+
+    def _contains_store_data(self, obj):
+        if isinstance(obj, dict):
+            keys = {str(key).lower() for key in obj.keys()}
+            store_markers = {
+                "storename", "storeid", "businessid", "deliveryfee",
+                "deliverytime", "averagerating", "offers", "promotions",
+                "priceRange".lower(),
+            }
+            if keys & store_markers and any(key in keys for key in {"name", "storename", "storeid", "id"}):
+                return True
+            return any(self._contains_store_data(value) for value in obj.values())
+        if isinstance(obj, list):
+            return any(self._contains_store_data(item) for item in obj)
+        return False
+
+    async def _handle_response(self, response):
+        url = response.url.lower()
+        relevant_url = any(keyword in url for keyword in [
+            "doordash.com",
+            "consumer",
+            "store",
+            "search",
+            "graphql",
+            "feed",
+        ])
+        if not relevant_url:
+            return
+
+        try:
+            ct = (response.headers.get("content-type") or "").lower()
+            if any(t in ct for t in ["json", "javascript", "text/plain", "octet-stream"]):
+                data = await response.json()
+                if data and self._contains_store_data(data):
+                    self.captured_data.append({
+                        "url": response.url,
+                        "platform_code": self.platform_code,
+                        "data": data,
+                    })
+                    print(f"[SUCCESS][DD] Captured data from: {url[:60]}...")
+        except Exception:
+            pass
+
+    async def fetch_live_data(self):
+        self.captured_data = []
+        try:
+            async with async_playwright() as p:
+                print(f"[*][DD] Launching browser (Headless={self.headless})...")
+                browser = await p.chromium.launch(headless=self.headless)
+                context = await browser.new_context(
+                    viewport={'width': 1280, 'height': 800},
+                    user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+                    geolocation=self.coords,
+                    permissions=["geolocation"]
+                )
+                page = await context.new_page()
+                page.on("response", self._handle_response)
+
+                print(f"[*][DD] Accessing DoorDash market page: {self.base_url}")
+                await page.goto(self.base_url, wait_until="load", timeout=60000)
+                await page.wait_for_timeout(8000)
+
+                for btn_text in ["Accept", "Accept All", "Got it", "Close"]:
+                    try:
+                        btn = page.get_by_role("button", name=btn_text, exact=False)
+                        if await btn.is_visible(timeout=2500):
+                            await btn.click()
+                            print(f"[+][DD] Dismissed '{btn_text}' overlay.")
+                    except Exception:
+                        continue
+
+                for i in range(self.search_depth):
+                    await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+                    await page.wait_for_timeout(5000)
+                    html_names = await page.eval_on_selector_all(
+                        'a[href*="/store/"], [data-testid*="store"]',
+                        'elements => elements.map(e => e.innerText).filter(Boolean)'
+                    )
+                    if html_names:
+                        self.captured_data.append({
+                            "url": f"DD_HTML_BACKUP_PAGE_{i+1}",
+                            "platform_code": self.platform_code,
+                            "data": {"names": html_names},
+                        })
+                        print(f" [DD PAGE {i+1}] Found {len(html_names)} store text blocks in HTML.")
+
+                await page.screenshot(path="debug_market_view_doordash.png")
+                print("[*][DD] Saved debug_market_view_doordash.png for review.")
+                await context.close()
+                await browser.close()
+                return self.captured_data
+        except Exception as e:
+            print(f"[!] DoorDash Scraper Error: {e}")
             return []

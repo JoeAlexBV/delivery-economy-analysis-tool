@@ -6,6 +6,8 @@ A Python-based market intelligence pipeline designed to analyze gig economy deli
 
 - **Network Interception**: Captures GraphQL and JSON responses directly from delivery platforms.
 - **Expanded Radius Crawling**: Uses the configured center point plus nearby geolocation passes to approximate wider Uber Eats market coverage, currently 15 miles.
+- **Platform Tracking**: Tags each row with `platform_code` (`UE` for Uber Eats, `DD` for DoorDash) so provider-specific trends can be compared.
+- **DoorDash Capture Path**: Includes a DoorDash browser/network scraper. DoorDash's official Drive and Marketplace APIs are partner/merchant workflows, not an open consumer deals feed, so this path mirrors the existing network-capture approach until authorized API access is available.
 - **Custom Logic Engine**: Calculates potential earnings based on price levels, surge multipliers, and tip percentages.
 - **Distance Penalty**: Implements a "North Oldham" penalty ($0.65/mile) to account for long-distance delivery overhead.
 - **Config-Driven**: All market assumptions are centralized in `config.json` for easy adjustment.
@@ -16,7 +18,7 @@ A Python-based market intelligence pipeline designed to analyze gig economy deli
 
 The tool follows a classic "Medallion" architecture style adapted for gig-economy data:
 
-1.  **Ingestion (Bronze)**: `scraper.py` launches a headless browser to mimic a user in Crestwood. It intercepts the raw JSON traffic from the platform's API and saves it to `market_snapshots.json`.
+1.  **Ingestion (Bronze)**: `scraper.py` launches a headless browser to mimic a user in Crestwood. It intercepts the raw JSON traffic from the selected platform and saves it to `market_snapshots.json`.
 2.  **Transformation (Silver)**: `main.py` parses the snapshots, cleans "junk" data, and discovery-maps new restaurants. The `MarketAnalyzer` applies the mathematical model to calculate potential.
 3.  **Storage & Modeling (Gold)**: 
     *   **Local**: Incremental data is logged to `market_history.db` (SQLite).
@@ -80,11 +82,29 @@ To trigger a browser session, scrape real-time data, and update the cloud data l
 python main.py --live
 ```
 
+Uber Eats is the default provider. DoorDash and combined runs are available with:
+```bash
+python main.py --live --platform dd
+python main.py --live --platform all
+```
+
 ### Local Analysis
 To re-run the analysis logic on the existing `market_snapshots.json` without launching a browser:
 ```bash
 python main.py
 ```
+
+### Provider Migration
+The app auto-adds `platform_code` to SQLite and backfills existing rows to `UE`. To run the migration manually, use:
+```sql
+ALTER TABLE restaurant_history ADD COLUMN platform_code TEXT DEFAULT 'UE';
+
+UPDATE restaurant_history
+SET platform_code = 'UE'
+WHERE platform_code IS NULL OR platform_code = '';
+```
+
+The full local/Athena migration is stored in `migrations/2026_06_09_add_platform_code.sql`.
 
 ## Automation
 The tool includes an internal **AsyncIO Scheduler** (APScheduler). To run the pipeline as a continuous background service (recommended for 24/7 market monitoring):
@@ -94,8 +114,28 @@ python main.py --live --schedule --interval 15
 ```
 This eliminates the need for external OS-level scheduling (like Cron or Windows Task Scheduler) and manages the scraping lifecycle entirely within Python.
 
+To schedule both providers:
+```bash
+python main.py --live --platform all --schedule --interval 15
+```
+
 ## Power BI Connectivity Tips
 When connecting Power BI to the Athena data lake:
 1. Use the **Native Amazon Athena Connector** (built-in) instead of ODBC to avoid DSN configuration errors.
 2. Ensure your **S3 Staging Directory** is set to a dedicated folder (e.g., `s3://your-bucket/query-results/`) so Athena can process the Parquet files.
 3. If using **DirectQuery**, your dashboard will update every time the scraper pushes a new file to S3 and you refresh the visual.
+
+## Predictive Insight Tables
+Each run also builds Power BI-ready recommendation tables under clean Athena table folders:
+
+- `s3://<bucket>/analytics/restaurant_hourly/`: restaurant x day x hour rankings.
+- `s3://<bucket>/analytics/zone_hourly/`: market zone x day x hour rankings.
+- `s3://<bucket>/analytics/zone_shift/`: market zone x day x shift block rankings.
+
+Use `athena_analytics_tables.sql` to create the three Athena external tables. Dated copies are kept separately under `analytics_history/` so the Athena table folders stay single-schema and easy for Power BI to consume.
+
+Useful report patterns:
+- Heatmap: `market_zone` by `hour_of_day`, colored by `predictable_hourly_pay`.
+- Day/shift planner: filter `day_of_week` and `shift_block`, rank by `recommendation_score`.
+- Confidence control: show or filter `reliability_label`, `sample_runs`, and `distinct_run_dates`.
+- Volatility view: compare `avg_hourly_pay` against `predictable_hourly_pay`; wide gaps mean less predictable income.

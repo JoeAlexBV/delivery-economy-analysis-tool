@@ -8,6 +8,12 @@
         "spillover_search_depth_scrolls": 4,
         "headless": true
     },
+    "doordash_scraper": {
+        "base_url": "https://www.doordash.com/food-delivery/crestwood-ky-restaurants/",
+        "coords": {"latitude": 38.3306, "longitude": -85.4852},
+        "search_depth_scrolls": 6,
+        "headless": true
+    },
     "aws": {
         "enabled": true,
         "bucket_name": "crestwood-gig-data-lake",
@@ -16,6 +22,8 @@
         "results_prefix": "results",
         "raw_prefix": "raw",
         "dimensions_prefix": "dimensions",
+        "analytics_prefix": "analytics",
+        "analytics_history_prefix": "analytics_history",
         "athena_results_prefix": "athena-query-results"
     },
     "market_logic": {
